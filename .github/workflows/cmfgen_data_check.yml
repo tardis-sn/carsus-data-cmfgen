@@ -34,11 +34,6 @@ jobs:
         run: |
           mkdir ~/temp
           
-      - name: Delete the previous data
-        id: delete_previous_data
-        run: |
-          rm -rf ./atomic 
-
       - name: Download data
         id: download_data
         run: |
