@@ -1,0 +1,13 @@
+Hi Paul,
+
+The following EMAILS contains 3 link file for Fe2.
+
+I have been using 827_to_62 but only 510 levels. I'm about to run a full
+  FeII atom.
+
+I have run a LS coupling model also. While the populations change
+a lot at some depths, the predicted spectrum is very similar. Thus
+I would tend to use the 62 super-level model and then confirm the calculations 
+using less superlevels later.
+
+John

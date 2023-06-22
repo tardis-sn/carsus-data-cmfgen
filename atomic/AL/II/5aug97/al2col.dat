@@ -1,0 +1,29 @@
+**************************************************************************************************************************
+**************************************************************************************************************************
+
+Collision strengths (Omega[i,k]) for Al2. The collisional excitation rate
+is defined by
+
+           C(i,k)=8.63D-08 OMEGA(i,k) EXP(-U0) / Gi /sqrt(T_4).
+
+We also use the same definition for the ionization collision strength.
+For ionization of low lying levels we expect OMEGA(i,i) to be propotional to T.
+
+Collision rates for Al II are from Doyle, Keenan et al, 1992, A&A, 261, 285
+
+**************************************************************************************************************************
+**************************************************************************************************************************
+
+6 				!Number of transitions
+7                               !Number of T values OMEGA tabulated at
+1.0				!Scaling factor for OMEGA (non-FILE values).
+0.1				!Value for OMEGA if f=0
+                                                  
+Transition\T            0.75    1.0    1.5    2.0    2.5    3.0    4.0
+
+3s21Se-3s3p3Po          3.41   3.57   3.61   3.54   3.43   3.31   3.07
+3s21Se-3s3p1Po          7.31   7.55   7.68   7.78   7.89   8.01   8.31
+3s21Se-3p21De           1.36   1.32   1.26   1.22   1.19   1.18   1.18
+3s3p3Po-3s3p1Po         4.73   4.89   5.08   5.11   5.03   4.91   4.61
+3s3p3Po-3p21De         13.38  12.40  10.09   9.85   9.09   8.51   7.66
+3s3p1Po-3p21De          5.13   4.94   4.60   4.31   4.06   3.85   3.51

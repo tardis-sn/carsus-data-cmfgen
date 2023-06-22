@@ -1,0 +1,45 @@
+**************************************************************************************************************************
+**************************************************************************************************************************
+
+Collision strengths (Omega[i,k]) for Co IV. The collisional excitation rate
+is defined by
+
+           C(i,k)=8.63D-08 OMEGA(i,k) EXP(-U0) / Gi /sqrt(T_4).
+
+We also use the same definition for the ionization collision strength.
+For ionization of low lying levels we expect OMEGA(i,i) to be propotional to T.
+
+These are rates for Ni IV which has a similar structure to Co III.
+
+@ARTICLE{2002CoPhC.145..311S,
+   author = {{Sunderland}, A.~G. and {Noble}, C.~J. and {Burke}, V.~M. and 
+	{Burke}, P.~G.},
+    title = "{A parallel R-matrix program PRMAT for electron-atom and electron-ion scattering calculations}",
+  journal = {Computer Physics Communications},
+     year = 2002,
+    month = jun,
+   volume = 145,
+    pages = {311-340},
+      doi = {10.1016/S0010-4655(02)00140-6},
+   adsurl = {http://adsabs.harvard.edu/abs/2002CoPhC.145..311S},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+**************************************************************************************************************************
+**************************************************************************************************************************
+
+8 				!Number of transitions
+6                               !Number of T values OMEGA tabulated at
+1.0				!Scaling factor for OMEGA (non-FILE values).
+0.1 				!Value for OMEGA if f=0
+
+    Transition\T                    0.5D0      1.0D0      4.0D0      10.0D0      40.0D0           100.0D0
+
+3d7_a4Fe-3d7_a4Pe                   6.851       6.049      4.527      4.039        3.334            2.906
+3d7_a4Fe-3d7_a2Ge                   2.959       2.857      2.876      2.858        2.601            2.207
+3d7_a4Fe-3d7_a2Pe                   1.121       0.9666     0.873      0.843        0.736            0.616
+3d7_a4Fe-3d7_a2He                   2.360       2.632      2.969      2.946        2.617            2.149
+3d7_a4Fe-3d7_a2D2e                  1.201       1.274      1.369      1.348        1.207            1.026
+3d7_a4Fe-3d7_a2Fe                   1.451       1.536      1.467      1.377        1.159            0.9645
+3d7_a4Fe-3d6(5D)4s_a6De             4.619       4.973      4.149      2.845        1.307            0.723
+3d7_a4Fe-3d6(5D)4s_a4De             9.659       9.343      6.285      4.241        2.347            1.901

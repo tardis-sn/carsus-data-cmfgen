@@ -1,0 +1,25 @@
+**************************************************************************************************************************
+**************************************************************************************************************************
+
+Collision strengths (Omega[i,k]) for Ca III. The collisional excitation rate
+is defined by
+
+           C(i,k)=8.63D-08 OMEGA(i,k) EXP(-U0) / Gi /sqrt(T_4).
+
+We also use the same definition for the ionization collision strength.
+For ionization of low lying levels we expect OMEGA(i,i) to be propotional to T.
+
+Set to zero for the time being. DLM
+Changed OMEGA to 0.1 to be consistant with previous models 21-Jun-96
+
+Collision rates for the lowest state is from from?
+
+**************************************************************************************************************************
+**************************************************************************************************************************
+
+0 				!Number of transitions
+9                               !Number of T values OMEGA tabulated at
+1.0				!Scaling factor for OMEGA (non-FILE values).
+0.1 				!Value for OMEGA if f=0
+
+    Transition\T            0.2        0.5        1.0        2.0        5.0       10.0       20.0       50.0      100.0

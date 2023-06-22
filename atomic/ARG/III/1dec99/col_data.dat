@@ -1,0 +1,17 @@
+ 
+******************************************************************************
+ 
+       Colisional data for Ar III
+ 
+******************************************************************************
+ 
+3                                       !Number of transitions
+2                                       !Number of T values OMEGA tabulated at
+1.0                                     !Scaling factor for OMEGA (non-FILE values).
+0.1                                     !Value for OMEGA if f=0
+ 
+    Transition\T              0.5        1.0
+
+3s2_3p4_3Pe-3s2_3p4_1De       4.74       4.74
+3s2_3p4_3Pe-3s2_3p4_1Se       0.68       0.68
+3s2_3p4_1De-3s2_3p4_1Se       0.823      0.823

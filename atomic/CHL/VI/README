@@ -1,0 +1,16 @@
+15feb01
+       Virtually no data for Cl VI is available. The oscilator values 
+       presented here are bsically that for ArVII. They have been scaled 
+       accoridng to the difference in z, and transition wavelength.
+       
+       NIST energy levels for Cl VI were inserted, and LS coupling assumed
+       to split the transition vales.
+
+       Photoionization cross-sections are very crude hydrogenic vales based
+       on nef. (A better alternate might be to use the cross-sections for
+       ArVII)
+
+       The f_to_s_?.dat files have been created using WR_F_TO_S.
+       They have not been checked, and do not necassarily provide
+       the optimum choice of super levels.
+~        
