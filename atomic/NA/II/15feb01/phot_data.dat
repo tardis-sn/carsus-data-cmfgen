@@ -1,0 +1,167 @@
+**********************************************************************
+**********************************************************************
+ 
+Crude photoionization cross-sections for NaII
+Groun[C-state cross-section if from Paul
+ 
+**********************************************************************
+**********************************************************************
+ 
+10-Feb-2001 11:34:26                   !Date
+21                                     !Number of energy levels
+1                                      !Number of photoionization routes
+2.0                                    !Screened nuclear charge
+2p5_2Po                                !Final state in ion
+0.0                                    !Excitation energy of final state
+6.0                                    !Statistical weight of ion
+0.0                                    !Sigma used for Gaussian smoothing (km/s)
+Megabarns                              !Cross-section unit
+False                                  !Split J levels
+63                                     !Total number of data pairs
+
+2p6_1Se                                !Configuration name
+1                                      !Type of cross-section
+3                                      !Number of cross-section points
+6.850
+2.0D0
+2.0D0
+
+2p5_3s_3Po                             !Configuration name
+1                                      !Type of cross-section
+3                                      !Number of cross-section points
+3.8453                                  
+1.0D0
+2.0D0
+
+2p5_3s_1Po                             !Configuration name
+1                                      !Type of cross-section
+3                                      !Number of cross-section points
+3.9034                                  
+1.0D0
+2.0D0
+
+2p5_3p_3Se                             !Configuration name
+1                                      !Type of cross-section
+3                                      !Number of cross-section points
+4.4117                                  
+1.0D0
+2.0D0
+
+2p5_3p_3De                             !Configuration name
+1                                      !Type of cross-section
+3                                      !Number of cross-section points
+4.5245                                  
+1.0D0
+2.0D0
+
+2p5_3p_1De                             !Configuration name
+1                                      !Type of cross-section
+3                                      !Number of cross-section points
+4.5691                                  
+1.0D0
+2.0D0
+
+2p5_3p_1Pe                             !Configuration name
+1                                      !Type of cross-section
+3                                      !Number of cross-section points
+4.5886                                  
+1.0D0
+2.0D0
+
+2p5_3p_3Pe                             !Configuration name
+1                                      !Type of cross-section
+3                                      !Number of cross-section points
+4.5994                                  
+1.0D0
+2.0D0
+
+2p5_3p_1Se                             !Configuration name
+1                                      !Type of cross-section
+3                                      !Number of cross-section points
+4.8642                                  
+1.0D0
+2.0D0
+
+2p5(2P*<3/2>)3d_2{1/2}o                !Configuration name
+1                                      !Type of cross-section
+3                                      !Number of cross-section points
+5.8136                                  
+1.0D0
+2.0D0
+
+2p5(2P*<3/2>)3d_2{3/2}o                !Configuration name
+1                                      !Type of cross-section
+3                                      !Number of cross-section points
+5.8443                                  
+1.0D0
+2.0D0
+
+2p5(2P*<3/2>)3d_2{7/2}o                !Configuration name
+1                                      !Type of cross-section
+3                                      !Number of cross-section points
+5.8445                                  
+1.0D0
+2.0D0
+
+2p5(2P*<3/2>)4s_2{3/2}o                !Configuration name
+1                                      !Type of cross-section
+3                                      !Number of cross-section points
+5.8730                                  
+1.0D0
+2.0D0
+
+2p5(2P*<3/2>)3d_2{5/2}o                !Configuration name
+1                                      !Type of cross-section
+3                                      !Number of cross-section points
+5.8761                                  
+1.0D0
+2.0D0
+
+2p5(2P*<1/2>)4s_2{1/2}o                !Configuration name
+1                                      !Type of cross-section
+3                                      !Number of cross-section points
+5.9582                                  
+1.0D0
+2.0D0
+
+2p5(2P*<1/2>)3d_2{5/2}o                !Configuration name
+1                                      !Type of cross-section
+3                                      !Number of cross-section points
+5.9444                                  
+1.0D0
+2.0D0
+
+2p5(2P*<1/2>)3d_2{3/2}o                !Configuration name
+1                                      !Type of cross-section
+3                                      !Number of cross-section points
+5.9562                                  
+1.0D0
+2.0D0
+
+2p5(2P*<3/2>)5s_2{3/2}o                !Configuration name
+1                                      !Type of cross-section
+3                                      !Number of cross-section points
+7.8751                                  
+1.0D0
+2.0D0
+
+2p5(2P*<1/2>)5s_2{1/2}o                !Configuration name
+1                                      !Type of cross-section
+3                                      !Number of cross-section points
+8.0636                                  
+1.0D0
+2.0D0
+
+2p5(2P*<3/2>)6s_2{3/2}o                !Configuration name
+1                                      !Type of cross-section
+3                                      !Number of cross-section points
+9.8564                                  
+1.0D0
+2.0D0
+
+2p5(2P*<1/2>)6s_2{1/2}o                !Configuration name
+1                                      !Type of cross-section
+3                                      !Number of cross-section points
+10.2460                                 
+1.0D0
+2.0D0

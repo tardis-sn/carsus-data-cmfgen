@@ -1,0 +1,19 @@
+************************************************************************************************************************************
+ 
+                 Energy Level and statistical weight for H-
+
+  Reference: Threshold energy from: \cite{A04_neg_ions}
+
+ 
+                g          E(cm^-1)     10^15 Hz      eV         Lam(A)       ID      ARAD         C4          C6
+************************************************************************************************************************************
+ 
+17-Jun-2014                                      !Format date
+13-Apr-2015                                      !Date
+1                                                !Number of energy levels
+6083.0606                                        !Ionization energy
+0.0                                              !Screened nuclear charge
+0                                                !Number of transitions
+ 
+1s2_1Se       1.0          0.000000    0.182365    0.754204    1.64391E+04     1   0.000E+00   0.000E+00   0.000E+00
+

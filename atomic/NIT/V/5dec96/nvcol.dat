@@ -1,0 +1,39 @@
+**************************************************************************************************************************
+**************************************************************************************************************************
+
+ Collision strengths (Omega[i,k]) for NV. The collisional excitation rate
+ is defined by
+
+           C(i,k)=8.63D-08 OMEGA(i,k) EXP(-U0) / Gi /sqrt(T_4).
+
+ We also use the same definition for the ionization collision strength.
+ For ionization of low lying levels we expect OMEGA(i,i) to be propotional to T.
+
+ For the 2s-2p, and 2s-3 and 2p-3 levels the crosss sections are
+ taken from Cochrane and Mcwhirter (1983, Physica Scripta, 28,25-44).
+
+ Bug fix: 19-Dec-1996: Levelnames did not have parit indicators.
+
+ [Reference] Collisional data for 2s-2p, 2s-3 and 2p-3 states in N\,{\sc v} are from \cite{CM83_lith}.
+
+**************************************************************************************************************************
+**************************************************************************************************************************
+
+9 				!Number of transitions
+9                               !Number of T values OMEGA tabulated at
+1.0				!Scaling factor for OMEGA (non-FILE values).
+0.01				!Value for OMEGA if f=0
+                                                                      
+Transition\T          0.2        0.5        1.0        2.0        5.0       10.0       20.0       50.0      100.0
+
+ 2s2Se-    I      8.69E-04   2.17E-03   4.35E-03   8.69E-03   2.17E-02   4.35E-02   8.69E-02   2.17E-01   4.35E-01
+ 2s2Se- 2p2Po        6.6949     6.7097     6.7343     6.7827     6.9218     7.1365     7.5131     8.3708     9.3289
+ 2s2Se- 3s2Se        0.2467     0.2470     0.2473     0.2480     0.2500     0.2527     0.2569     0.2639     0.2692
+ 2s2Se- 3p2Po        0.1514     0.1518     0.1525     0.1539     0.1581     0.1651     0.1786     0.2164     0.2724
+ 2s2Se- 3d2De        0.4090     0.4097     0.4108     0.4131     0.4198     0.4303     0.4494     0.4954     0.5485
+
+ 2p2Po-    I      3.74E-03   9.35E-03   1.87E-02   3.74E-02   9.35E-02   1.87E-01   3.74E-01   9.35E-01   1.87E+00
+ 2p2Po- 3s2Se        0.1570     0.1572     0.1574     0.1579     0.1593     0.1616     0.1662     0.1793     0.1994
+ 2p2Po- 3p2Po        1.0898     1.0905     1.0917     1.0940     1.1003     1.1091     1.1224     1.1458     1.1641
+ 2p2Po- 3d2De        3.3044     3.3114     3.3231     3.3462     3.4149     3.5264     3.7395     4.3121     5.1008
+

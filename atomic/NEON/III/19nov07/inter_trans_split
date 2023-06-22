@@ -1,0 +1,11 @@
+
+From Chianti database.
+
+6                !Number of transitions
+
+2s2_2p4_3Pe[2] - 2s2_2p4_3Pe[1]          0.0       5.971E-03
+2s2_2p4_3Pe[2] - 2s2_2p4_3Pe[0]          0.0       2.524E-08
+2s2_2p4_3Pe[1] - 2s2_2p4_3Pe[0]          0.0       1.154E-03
+2s2_2p4_3Pe[2] - 2s2_2p3(4So)3s_5So[2]   0.0       3.170D+05
+2s2_2p4_3Pe[1] - 2s2_2p3(4So)3s_5So[2]   0.0       9.849D+04
+2s2_2p4_3Pe[0] - 2s2_2p3(4So)3s_5So[2]   0.0       1.053D+00

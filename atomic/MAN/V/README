@@ -1,0 +1,14 @@
+18oct00
+       Only limited data for Maganese is available. The oscillator values 
+       presented here are take from extensive calculations of
+       Kurucz.
+       
+       NIST energy levels have been used where available.
+
+       Photoionization cross-sections are very crude hydrogenic vales based
+       on nef. These need to be updated. 
+
+       The f_to_s_?.dat files have been created using WR_F_TO_S.
+       They have not been checked, and do not necassarily provide
+       the optimum choice of super levels.
+~        

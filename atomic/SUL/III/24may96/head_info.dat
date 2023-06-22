@@ -1,0 +1,25 @@
+
+******************************************************************************
+
+       Energy levels and statistical weights for S III
+
+>> Data is from the Opacity Project
+>>   Maximum energy included = Ionization energy =>   281512.
+>>   Put into John`s format by create.f
+>> Data is from NIST
+>>   Maximum energy included = Ionization energy =>   280600.
+>>   Put into John`s format by create.f
+>>   Packed according to J states by pack.f
+>> Data from the Opacity Project rewritten with NIST energies
+>>   32 energies from NIST included
+>>   199 energies from the Opacity Project scaled by  1.0114
+
+  Config      Statistical   Energy    Ionization
+                Weight      (cm-1)    Energy(eV)
+******************************************************************************
+
+24-May-1996                             !Date
+231                                     !Number of energy levels
+280600.                                 !Ionization energy
+3.0                                     !Screened nuclear charge
+3436                                    !Number of transitions

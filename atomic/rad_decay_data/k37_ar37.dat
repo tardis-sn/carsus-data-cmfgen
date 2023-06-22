@@ -1,0 +1,10 @@
+1.419e-05 ! half-life
+6.1488    ! Qtot [MeV]
+3
+511.0   199.8
+2796.0    1.8
+3601.0    0.019
+# ekin_postiron/end-point energy/intensity (%)
+2
+1026.1   2330.7    1.8
+2373.9   5126.8   98.1

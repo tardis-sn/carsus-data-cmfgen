@@ -1,0 +1,25 @@
+ *****************************************************************************                                                      
+ *****************************************************************************                                                      
+                                                                                                                                    
+  LOG10[Cross sections] for Hydrogen for all (n,l) states up to n=30                                                                
+  Cross-sctions are in program units (i.e. cgs unit*10^10)                                                                          
+  Created 22-Nov-1996 using OUT_HYDL based on HDYCROSSL.                                                                            
+                                                                                                                                    
+  Format N, L, # of data points.                                                                                                    
+                                                                                                                                    
+ *****************************************************************************                                                      
+ *****************************************************************************                                                      
+                                                                                                                                    
+ 30                 !Maximum principal quantum number                                                                               
+ *****************************************************************************                                                      
+ *****************************************************************************                                                      
+                                                                                                                                    
+  Bound-free Gaunt factors for Hydrogen for all n states up to n=30.                                                                
+  Created 22-Nov-1996: Based on summing HDYCROSSL (n,l) rates.                                                                      
+                                                                                                                                    
+  Format N, # of data points.                                                                                                       
+                                                                                                                                    
+ *****************************************************************************                                                      
+ *****************************************************************************                                                      
+                                                                                                                                    
+ 30                 !Maximum principal quantum number                                                                               

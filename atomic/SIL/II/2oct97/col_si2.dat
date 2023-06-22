@@ -1,0 +1,30 @@
+**************************************************************************************************************************
+**************************************************************************************************************************
+
+Collision strengths (Omega[i,k]) for Si II. The collisional excitation rate
+is defined by
+
+           C(i,k)=8.63D-08 OMEGA(i,k) EXP(-U0) / Gi /sqrt(T_4).
+
+We also use the same definition for the ionization collision strength.
+For ionization of low lying levels we expect OMEGA(i,i) to be propotional to T.
+
+Set to zero for the time being. DLM
+Changed OMEGA to 0.1 to be consistant with previous models 21-Jun-96
+
+**************************************************************************************************************************
+**************************************************************************************************************************
+
+6 				!Number of transitions
+4                               !Number of T values OMEGA tabulated at
+1.0				!Scaling factor for OMEGA (non-FILE values).
+0.1 				!Value for OMEGA if f=0
+
+    Transition\T                 0.4     0.63    1.0    1.58    2.5     4.0
+
+3s2(1S)3p2Po - 3s3p2_4Pe        5.925   5.756   5.472   5.147   4.793   4.397
+3s2(1S)3p2Po - 3s3p2_2De       15.62   15.56   15.45   15.00   14.00   12.52
+3s3p2_4Pe    - 3s3p2_2De       11.043  11.204  11.113  10.623   9.812   8.896
+3s2(1S)3p2Po - 3s2(1S)4s2Se     5.745   6.036   6.140   6.037   5.824   5.593
+3s2(1S)3p2Po - 3s2(1S)3d2De    12.88   13.09   13.34   13.93   14.62   15.61
+3s2(1S)3p2Po - 3s3p2_2Pe        9.21    9.33    9.52    9.82   10.29   10.98

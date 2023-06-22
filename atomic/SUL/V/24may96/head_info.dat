@@ -1,0 +1,27 @@
+
+******************************************************************************
+
+       Energy levels and statistical weights for S V
+
+>> Data is from the Opacity Project
+>>  3p 5g removed because no phot x-section
+>>  3p 5g removed because no phot x-section
+>>   Maximum energy included = Ionization energy =>   585792.
+>>   Put into John`s format by create.f
+>> Data is from NIST
+>>   Maximum energy included = Ionization energy =>   585514.
+>>   Put into John`s format by create.f
+>>   Packed according to J states by pack.f
+>> Data from the Opacity Project rewritten with NIST energies
+>>   69 energies from NIST included
+>>   48 energies from the Opacity Project scaled by  1.0013
+
+  ConfigStatistical   Energy    Ionization
+          Weight      (cm-1)    Energy(eV)
+******************************************************************************
+
+24-May-1996                             !Date
+117                                     !Number of energy levels
+585514.                                 !Ionization energy
+5.0                                     !Screened nuclear charge
+1092                                    !Number of transitions

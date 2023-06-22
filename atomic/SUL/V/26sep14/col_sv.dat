@@ -1,0 +1,15 @@
+
+******************************************************************************
+
+       Colisional data for S V
+       Mendoaz, Page 162
+
+******************************************************************************
+
+1                                       !Number of transitions
+4                                       !Number of T values OMEGA tabulated at
+1.0                                     !Scaling factor for OMEGA (non-FILE values).
+0.1                                     !Value for OMEGA if f=0
+
+    Transition\T            0.5        1.0       1.5      2.0        
+3s2_1Se-3s_3p_3Po          0.911      0.910     0.914    0.905

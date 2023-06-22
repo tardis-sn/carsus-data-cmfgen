@@ -1,0 +1,24 @@
+
+*************************************************************************************
+
+  Collisional data for S IV
+  Reference S IV collisional data: Mendoza, IAU Sympr. 103, PN 1983, page 143 (163)
+
+ [Reference] Collision strengths between the $^2$P$^o$ and $^4$P terms in S\,{\iv} are 
+ [Reference] from the compilation of \cite{Men83_col}.
+
+*************************************************************************************
+
+6                                       !Number of transitions
+3                                       !Number of T values OMEGA tabulated at
+1.0                                     !Scaling factor for OMEGA (non-FILE values).
+0.1                                     !Value for OMEGA if f=0
+
+   Transition\T                         1.0     1.6   2.5
+3s2_3p_2Po[1/2]-3s_3p2_4Pe[1/2]         0.51   0.47   0.44
+3s2_3p_2Po[1/2]-3s_3p2_4Pe[3/2]         0.87   0.82   0.77
+3s2_3p_2Po[1/2]-3s_3p2_4Pe[5/2]         0.95   0.90   0.85
+3s2_3p_2Po[3/2]-3s_3p2_4Pe[1/2]         0.66   0.62   0.59
+3s2_3p_2Po[3/2]-3s_3p2_4Pe[3/2]         1.47   1.38   1.30
+3s2_3p_2Po[3/2]-3s_3p2_4Pe[5/2]         2.53   2.39   2.26
+

@@ -1,0 +1,24 @@
+**************************************************************************************************************************
+**************************************************************************************************************************
+
+Collision strengths (Omega[i,k]) for NaIV. The collisional excitation rate
+is defined by
+
+           C(i,k)=8.63D-08 OMEGA(i,k) EXP(-U0) / Gi /sqrt(T_4).
+
+We also use the same definition for the ionization collision strength.
+For ionization of low lying levels we expect OMEGA(i,i) to be propotional to T.
+From Mendoza (PN, IAU Symp. 103)
+
+**************************************************************************************************************************
+**************************************************************************************************************************
+
+3 				!Number of transitions
+9                               !Number of T values OMEGA tabulated at
+1.0				!Scaling factor for OMEGA (non-FILE values).
+0.1 				!Value for OMEGA if f=0
+
+    Transition\T            0.2        0.5        1.0        2.0        5.0       10.0       20.0       50.0      100.0
+2p4_3Pe-2p4_1De             1.17       1.17       1.17       1.17       1.17       1.17       1.17      1.17       1.17
+2p4_3Pe-2p4_1Se             0.163      0.163      0.163      0.163      0.163      0.163      0.163     0.163      0.163
+2p4_1De-2p4_1Se             0.157      0.157      0.157      0.157      0.157      0.157      0.157     0.157      0.157

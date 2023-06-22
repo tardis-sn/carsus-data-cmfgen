@@ -1,0 +1,27 @@
+5dec96
+     These are the recommended hydrogen data for 99% of all
+     applications.
+
+18oct00
+     These are the hydrogen data to use when you want to
+     allow for the l states to be treated as individual levels.
+     This may be important in some models at low electron densities
+     (i.e., Ne < 10^10). At present, states n=1 to 4 are split into 
+     individual l levels. 
+
+     Two collisional files are available:
+
+        hicol_a4.dat:   Contains cross-section for collisions with electrons.
+                        These are satisfactory, except for the l changing
+                        collisions. For l changing collisions, charged ions
+                        (e.g., protons) are mmore important.
+
+        hicol_a4_p.dat: The cross-section for the l-changing collisions have 
+                        been replaced with the proton cross-section, which are 
+                        typically an order of magnitude larger than the
+                        corresponding electon-cross sections. This can be
+                        used for models in which H dominates. An approximation,
+                        since collisions with charged ions have not yet been
+                        implemented.
+
+      If you use this data, STARK profiles cannot (YET) be used in CMF_FLUX.

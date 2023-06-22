@@ -1,0 +1,178 @@
+!
+! List of lines calculated by Lemke or by Keith Butler and Schoningberg.
+! For hydrogen the Lemke values are used when available, otherwise we
+! use the values of Butler and Schoningberg.
+!
+! In the first line, 5 and 16 refer to NL and NUP respectively.
+! They are the same as in the table file HHE_STARKPRO, and hence can be
+! utilized for a consistency check.
+!
+22-May-2001               !Creation date
+21-Nov-2000               !Formation date
+147                       !Number of transitions
+!
+HeI  [VW]=1.0E-04     [TYPE]=GARB    [NL]=5  [NUP]=16  [PID]=0   2   4   2p_1Po-4d_1D
+HeI  [VW]=1.0e+20     [TYPE]=GARB    [NL]=5  [NUP]=16  [PID]=0   2   4   2p_1Po-4d_1D
+HeI  [AW]=4921.93     [TYPE]=BS_HHE  [NL]=5  [NUP]=16  [PID]=1   2   4   2p_1Po-4d_1D
+HeI  [AW]=4388.15     [TYPE]=BS_HHE  [NL]=5  [NUP]=24  [PID]=2   2   5   2p_1Po-5d_1D (4387.93)
+HeI  [AW]=4471.50     [TYPE]=BS_HHE  [NL]=4  [NUP]=15  [PID]=3   2   4   2p_3Po-4d_3D
+HeI  [AW]=4026.21     [TYPE]=BS_HHE  [NL]=4  [NUP]=23  [PID]=4   3   5   2p_3Po-5d_3D
+HI   [AW]=3673.76     [TYPE]=BS_HHE  [NL]=2  [NUP]=23  [PID]=29  2  23
+HI   [AW]=3671.48     [TYPE]=BS_HHE  [NL]=2  [NUP]=24  [PID]=30  2  24
+HI   [AW]=3669.46     [TYPE]=BS_HHE  [NL]=2  [NUP]=25  [PID]=31  2  25
+HI   [AW]=3667.68     [TYPE]=BS_HHE  [NL]=2  [NUP]=26  [PID]=32  2  26
+HI   [AW]=3666.09     [TYPE]=BS_HHE  [NL]=2  [NUP]=27  [PID]=33  2  27
+HI   [AW]=3664.68     [TYPE]=BS_HHE  [NL]=2  [NUP]=28  [PID]=34  2  28
+HI   [AW]=3663.40     [TYPE]=BS_HHE  [NL]=2  [NUP]=29  [PID]=35  2  29
+HI   [AW]=3662.26     [TYPE]=BS_HHE  [NL]=2  [NUP]=30  [PID]=36  2  30
+He2  [VW]=1640.42     [TYPE]=BS_HHE  [NL]=2  [NUP]=3   [PID]=37  2   3
+He2  [VW]=1215.13     [TYPE]=BS_HHE  [NL]=2  [NUP]=4   [PID]=38  2   4
+He2  [AW]=4685.70     [TYPE]=BS_HHE  [NL]=3  [NUP]=4   [PID]=39  3   4
+He2  [AW]=3203.09     [TYPE]=BS_HHE  [NL]=3  [NUP]=5   [PID]=40  3   5
+He2  [AW]=2733.29     [TYPE]=BS_HHE  [NL]=3  [NUP]=6   [PID]=41  3   6
+He2  [AW]=2511.20     [TYPE]=BS_HHE  [NL]=3  [NUP]=7   [PID]=42  3   7
+He2  [AW]=2385.40     [TYPE]=BS_HHE  [NL]=3  [NUP]=8   [PID]=43  3   8
+He2  [AW]=2306.20     [TYPE]=BS_HHE  [NL]=3  [NUP]=9   [PID]=44  3   9
+He2  [AW]=2252.69     [TYPE]=BS_HHE  [NL]=3  [NUP]=10  [PID]=45  3  10
+He2  [AW]=10123.59    [TYPE]=BS_HHE  [NL]=4  [NUP]=5   [PID]=46  4   5
+He2  [AW]=6560.09     [TYPE]=BS_HHE  [NL]=4  [NUP]=6   [PID]=47  4   6
+He2  [AW]=5411.52     [TYPE]=BS_HHE  [NL]=4  [NUP]=7   [PID]=48  4   7
+He2  [AW]=4859.32     [TYPE]=BS_HHE  [NL]=4  [NUP]=8   [PID]=49  4   8
+He2  [AW]=4541.59     [TYPE]=BS_HHE  [NL]=4  [NUP]=9   [PID]=50  4   9
+He2  [AW]=4338.68     [TYPE]=BS_HHE  [NL]=4  [NUP]=10  [PID]=51  4  10
+He2  [AW]=4199.84     [TYPE]=BS_HHE  [NL]=4  [NUP]=11  [PID]=52  4  11
+He2  [AW]=4100.05     [TYPE]=BS_HHE  [NL]=4  [NUP]=12  [PID]=53  4  12
+He2  [AW]=4025.61     [TYPE]=BS_HHE  [NL]=4  [NUP]=13  [PID]=54  4  13
+He2  [AW]=3968.44     [TYPE]=BS_HHE  [NL]=4  [NUP]=14  [PID]=55  4  14
+!
+! Profiles from Lemke
+!
+HI   [VW]=1215.67    [TYPE]=LEMKE_HI   [NL]=1   [NUP]=2    [PID]=1   1   2
+HI   [VW]=1025.72    [TYPE]=LEMKE_HI   [NL]=1   [NUP]=3    [PID]=2   1   3
+HI   [VW]=972.54     [TYPE]=LEMKE_HI   [NL]=1   [NUP]=4    [PID]=3   1   4
+HI   [VW]=949.74     [TYPE]=LEMKE_HI   [NL]=1   [NUP]=5    [PID]=4   1   5
+HI   [VW]=937.80     [TYPE]=LEMKE_HI   [NL]=1   [NUP]=6    [PID]=5   1     6
+HI   [VW]=930.75     [TYPE]=LEMKE_HI   [NL]=1   [NUP]=7    [PID]=6   1     7
+HI   [VW]=926.23     [TYPE]=LEMKE_HI   [NL]=1   [NUP]=8    [PID]=7   1     8
+HI   [VW]=923.15     [TYPE]=LEMKE_HI   [NL]=1   [NUP]=9    [PID]=8   1     9
+HI   [VW]=920.96     [TYPE]=LEMKE_HI   [NL]=1   [NUP]=10   [PID]=9   1    10
+HI   [VW]=919.35     [TYPE]=LEMKE_HI   [NL]=1   [NUP]=11   [PID]=10  1    11
+HI   [VW]=918.13     [TYPE]=LEMKE_HI   [NL]=1   [NUP]=12   [PID]=11  1    12
+HI   [VW]=917.18     [TYPE]=LEMKE_HI   [NL]=1   [NUP]=13   [PID]=12  1    13
+HI   [VW]=916.43     [TYPE]=LEMKE_HI   [NL]=1   [NUP]=14   [PID]=13  1    14
+HI   [VW]=915.82     [TYPE]=LEMKE_HI   [NL]=1   [NUP]=15   [PID]=14  1    15
+HI   [VW]=915.33     [TYPE]=LEMKE_HI   [NL]=1   [NUP]=16   [PID]=15  1    16
+HI   [VW]=914.92     [TYPE]=LEMKE_HI   [NL]=1   [NUP]=17   [PID]=16  1    17
+HI   [VW]=914.58     [TYPE]=LEMKE_HI   [NL]=1   [NUP]=18   [PID]=17  1    18
+HI   [VW]=914.29     [TYPE]=LEMKE_HI   [NL]=1   [NUP]=19   [PID]=18  1    19
+HI   [VW]=914.04     [TYPE]=LEMKE_HI   [NL]=1   [NUP]=20   [PID]=19  1    20
+HI   [VW]=913.83     [TYPE]=LEMKE_HI   [NL]=1   [NUP]=21   [PID]=20  1    21
+HI   [VW]=913.64     [TYPE]=LEMKE_HI   [NL]=1   [NUP]=22   [PID]=21  1    22
+HI   [AW]=6562.79    [TYPE]=LEMKE_HI   [NL]=2   [NUP]=3    [PID]=22  2   3
+HI   [AW]=4861.32    [TYPE]=LEMKE_HI   [NL]=2   [NUP]=4    [PID]=23  2   4
+HI   [AW]=4340.46    [TYPE]=LEMKE_HI   [NL]=2   [NUP]=5    [PID]=24  2   5
+HI   [AW]=4101.73    [TYPE]=LEMKE_HI   [NL]=2   [NUP]=6    [PID]=25  2   6
+HI   [AW]=3970.07    [TYPE]=LEMKE_HI   [NL]=2   [NUP]=7    [PID]=26  2   7
+HI   [AW]=3889.05    [TYPE]=LEMKE_HI   [NL]=2   [NUP]=8    [PID]=27  2   8
+HI   [AW]=3835.38    [TYPE]=LEMKE_HI   [NL]=2   [NUP]=9    [PID]=28  2   9
+HI   [AW]=3797.90    [TYPE]=LEMKE_HI   [NL]=2   [NUP]=10   [PID]=29  2  10
+HI   [AW]=3770.63    [TYPE]=LEMKE_HI   [NL]=2   [NUP]=11   [PID]=30  2  11
+HI   [AW]=3750.15    [TYPE]=LEMKE_HI   [NL]=2   [NUP]=12   [PID]=31  2  12
+HI   [AW]=3734.37    [TYPE]=LEMKE_HI   [NL]=2   [NUP]=13   [PID]=32  2  13
+HI   [AW]=3721.94    [TYPE]=LEMKE_HI   [NL]=2   [NUP]=14   [PID]=33  2  14
+HI   [AW]=3711.97    [TYPE]=LEMKE_HI   [NL]=2   [NUP]=15   [PID]=34  2  15
+HI   [AW]=3703.85    [TYPE]=LEMKE_HI   [NL]=2   [NUP]=16   [PID]=35  2  16
+HI   [AW]=3697.15    [TYPE]=LEMKE_HI   [NL]=2   [NUP]=17   [PID]=36  2  17
+HI   [AW]=3691.55    [TYPE]=LEMKE_HI   [NL]=2   [NUP]=18   [PID]=37  2  18
+HI   [AW]=3686.83    [TYPE]=LEMKE_HI   [NL]=2   [NUP]=19   [PID]=38  2  19
+HI   [AW]=3682.81    [TYPE]=LEMKE_HI   [NL]=2   [NUP]=20   [PID]=39  2  20
+HI   [AW]=3679.35    [TYPE]=LEMKE_HI   [NL]=2   [NUP]=21   [PID]=40  2  21
+HI   [AW]=3676.36    [TYPE]=LEMKE_HI   [NL]=2   [NUP]=22   [PID]=41  2  22
+HI   [AW]=18751.00   [TYPE]=LEMKE_HI   [NL]=3   [NUP]=4    [PID]=42  3     4
+HI   [AW]=12818.07   [TYPE]=LEMKE_HI   [NL]=3   [NUP]=5    [PID]=43  3     5
+HI   [AW]=10938.09   [TYPE]=LEMKE_HI   [NL]=3   [NUP]=6    [PID]=44  3     6
+HI   [AW]=10049.37   [TYPE]=LEMKE_HI   [NL]=3   [NUP]=7    [PID]=45  3     7
+HI   [AW]=9545.97    [TYPE]=LEMKE_HI   [NL]=3   [NUP]=8    [PID]=46  3     8
+HI   [AW]=9229.02    [TYPE]=LEMKE_HI   [NL]=3   [NUP]=9    [PID]=47  3     9
+HI   [AW]=9014.91    [TYPE]=LEMKE_HI   [NL]=3   [NUP]=10   [PID]=48  3    10
+HI   [AW]=8862.79    [TYPE]=LEMKE_HI   [NL]=3   [NUP]=11   [PID]=49  3    11
+HI   [AW]=8750.48    [TYPE]=LEMKE_HI   [NL]=3   [NUP]=12   [PID]=50  3    12
+HI   [AW]=8665.02    [TYPE]=LEMKE_HI   [NL]=3   [NUP]=13   [PID]=51  3    13
+HI   [AW]=8598.39    [TYPE]=LEMKE_HI   [NL]=3   [NUP]=14   [PID]=52  3    14
+HI   [AW]=8545.39    [TYPE]=LEMKE_HI   [NL]=3   [NUP]=15   [PID]=53  3    15
+HI   [AW]=8502.49    [TYPE]=LEMKE_HI   [NL]=3   [NUP]=16   [PID]=54  3    16
+HI   [AW]=8467.26    [TYPE]=LEMKE_HI   [NL]=3   [NUP]=17   [PID]=55  3    17
+HI   [AW]=8437.96    [TYPE]=LEMKE_HI   [NL]=3   [NUP]=18   [PID]=56  3    18
+HI   [AW]=8413.32    [TYPE]=LEMKE_HI   [NL]=3   [NUP]=19   [PID]=57  3    19
+HI   [AW]=8392.40    [TYPE]=LEMKE_HI   [NL]=3   [NUP]=20   [PID]=58  3    20
+HI   [AW]=8374.48    [TYPE]=LEMKE_HI   [NL]=3   [NUP]=21   [PID]=59  3    21
+HI   [AW]=8359.01    [TYPE]=LEMKE_HI   [NL]=3   [NUP]=22   [PID]=60  3    22
+HI   [AW]=40511.56   [TYPE]=LEMKE_HI   [NL]=4   [NUP]=5    [PID]=61  4     5
+HI   [AW]=26251.50   [TYPE]=LEMKE_HI   [NL]=4   [NUP]=6    [PID]=62  4     6
+HI   [AW]=21655.28   [TYPE]=LEMKE_HI   [NL]=4   [NUP]=7    [PID]=63  4     7
+HI   [AW]=19445.5    [TYPE]=LEMKE_HI   [NL]=4   [NUP]=8    [PID]=64  4     8
+HI   [AW]=18174.12   [TYPE]=LEMKE_HI   [NL]=4   [NUP]=9    [PID]=65  4     9
+HI   [AW]=17362.11   [TYPE]=LEMKE_HI   [NL]=4   [NUP]=10   [PID]=66  4    10
+HI   [AW]=16806.53   [TYPE]=LEMKE_HI   [NL]=4   [NUP]=11   [PID]=67  4    11
+HI   [AW]=16407.20   [TYPE]=LEMKE_HI   [NL]=4   [NUP]=12   [PID]=68  4    12
+HI   [AW]=16109.32   [TYPE]=LEMKE_HI   [NL]=4   [NUP]=13   [PID]=69  4    13
+HI   [AW]=15880.55   [TYPE]=LEMKE_HI   [NL]=4   [NUP]=14   [PID]=70  4    14
+HI   [AW]=15700.67   [TYPE]=LEMKE_HI   [NL]=4   [NUP]=15   [PID]=71  4    15
+HI   [AW]=15556.46   [TYPE]=LEMKE_HI   [NL]=4   [NUP]=16   [PID]=72  4    16
+HI   [AW]=15438.93   [TYPE]=LEMKE_HI   [NL]=4   [NUP]=17   [PID]=73  4    17
+HI   [AW]=15341.80   [TYPE]=LEMKE_HI   [NL]=4   [NUP]=18   [PID]=74  4    18
+HI   [AW]=15260.55   [TYPE]=LEMKE_HI   [NL]=4   [NUP]=19   [PID]=75  4    19
+HI   [AW]=15191.85   [TYPE]=LEMKE_HI   [NL]=4   [NUP]=20   [PID]=76  4    20
+HI   [AW]=15133.23   [TYPE]=LEMKE_HI   [NL]=4   [NUP]=21   [PID]=77  4    21
+HI   [AW]=15082.78   [TYPE]=LEMKE_HI   [NL]=4   [NUP]=22   [PID]=78  4    22
+!
+! HeI Stark profiles provided by tables of
+! Dimitrijevic and Sahalbrechot.
+! Original data file HEIRESTSTARK.DAT
+! New data file is IR_STRK.DAT
+! (WLs and 1.86um levels fixed 3-Jan-2001)
+!
+HeI   [AW]=21132.03  [TYPE]=HeI_IR_STRK   [NL]=11   [NUP]=13   [V_LIM]=500     3     4
+HeI   [AW]=21120.20  [TYPE]=HeI_IR_STRK   [NL]=8    [NUP]=12   [V_LIM]=500     3     4
+HeI   [AW]=17002.50  [TYPE]=HeI_IR_STRK   [NL]=8    [NUP]=15   [V_LIM]=500     3     4
+HeI   [AW]=18685.35  [TYPE]=HeI_IR_STRK   [NL]=9    [NUP]=17   [V_LIM]=500     3     4
+HeI   [AW]=18697.21  [TYPE]=HeI_IR_STRK   [NL]=10   [NUP]=18   [V_LIM]=500     3     4
+HeI   [AW]=20581.28  [TYPE]=HeI_IR_STRK   [NL]=3    [NUP]=5    [V_LIM]=500     2     3
+!
+! Isolated and multi-component HeI and NIT line profiles.
+! Original data file HEIOTHERSTARK.DAT
+! New data file is DS_STRK.DAT
+!
+HeI   [AW]=5015.68   [TYPE]=DS_STRK    [NL]=3    [NUP]=11    [V_LIM]=500    2     3     (5017.1503)
+HeI   [AW]=5047.74   [TYPE]=DS_STRK    [NL]=5    [NUP]=13    [V_LIM]=500    2     4     (5049.219)
+HeI   [AW]=6678.15   [TYPE]=DS_STRK    [NL]=5    [NUP]=10    [V_LIM]=500    2     3     (6680.093)
+HeI   [AW]=7065.25   [TYPE]=DS_STRK    [NL]=4    [NUP]=6     [V_LIM]=500    2     3     (7067.241)
+HeI   [AW]=7281.35   [TYPE]=DS_STRK    [NL]=5    [NUP]=7     [V_LIM]=500    2     3     (7282.462)
+HeI   [AW]=10830.17  [TYPE]=DS_STRK    [NL]=2    [NUP]=4     [V_LIM]=500    2     3     (10833.461)
+HeI   [AW]=3888.64   [TYPE]=DS_STRK    [NL]=2    [NUP]=8     [V_LIM]=500    2     3     (3889.806)
+HeI   [AW]=4120.84   [TYPE]=DS_STRK    [NL]=4    [NUP]=20    [V_LIM]=500    2     5     (4120.80)
+HeI   [AW]=4437.55   [TYPE]=DS_STRK    [NL]=5    [NUP]=21    [V_LIM]=500    2     5
+HeI   [AW]=4713.17   [TYPE]=DS_STRK    [NL]=4    [NUP]=12    [V_LIM]=500    2     4
+HeI   [AW]=5875.66   [TYPE]=DS_STRK    [NL]=4    [NUP]=9     [V_LIM]=500    2     3
+!
+N2    [AW]=4601.48   [TYPE]=DS_STRK    [NL]=8    [NUP]=15    [V_LIM]=500    3     4   4601.48  4643
+N2    [AW]=4895.12   [TYPE]=DS_STRK    [NL]=7    [NUP]=11    [V_LIM]=500    3     4   4895.12
+N2    [AW]=6482.05   [TYPE]=DS_STRK    [NL]=9    [NUP]=11    [V_LIM]=500    3     4   6482.05
+N2    [AW]=5666.64   [TYPE]=DS_STRK    [NL]=8    [NUP]=12    [V_LIM]=500    3     4   5666    5730
+N2    [AW]=5002.69   [TYPE]=DS_STRK    [NL]=12   [NUP]=18    [V_LIM]=500    3     4   5002 5045
+N2    [AW]=5927.82   [TYPE]=DS_STRK    [NL]=15   [NUP]=20    [V_LIM]=500    3     4   5927  5960
+N2    [AW]=4447.03   [TYPE]=DS_STRK    [NL]=11   [NUP]=19    [V_LIM]=500    3     4   4447   4447
+!
+!
+NV    [VW]=1238.83   [TYPE]=VOIGT    [G_RAD]=3.37E+08  [G_COL]=2.90E-07
+NV    [VW]=1242.82   [TYPE]=VOIGT    [G_RAD]=3.34E+08  [G_COL]=2.90E-07
+SkIV  [VW]=1393.75   [TYPE]=VOIGT    [G_RAD]=8.92E+08  [G_COL]=9.76E-07
+SkIV  [VW]=1402.77   [TYPE]=VOIGT    [G_RAD]=8.81E+08  [G_COL]=9.76E-07
+CIV   [VW]=1548.19   [TYPE]=VOIGT    [G_RAD]=2.65E+08  [G_COL]=4.02E-07
+CIV   [VW]=1550.77   [TYPE]=VOIGT    [G_RAD]=2.65E+08  [G_COL]=4.02E-07
+CIII  [VW]=1175.26   [TYPE]=VOIGT    [G_RAD]=4.46E+08  [G_COL]=2.00E-07
+CIII  [VW]=1175.99   [TYPE]=VOIGT    [G_RAD]=1.34E+09  [G_COL]=2.00E-07
+CIII  [VW]=1175.59   [TYPE]=VOIGT    [G_RAD]=3.34E+08  [G_COL]=2.00E-07
+CIII  [VW]=1174.93   [TYPE]=VOIGT    [G_RAD]=3.35E+08  [G_COL]=2.00E-07
+CIII  [VW]=1176.37   [TYPE]=VOIGT    [G_RAD]=5.57E+08  [G_COL]=2.00E-07
+CIII  [VW]=1175.71   [TYPE]=VOIGT    [G_RAD]=1.00E+09  [G_COL]=2.00E-07

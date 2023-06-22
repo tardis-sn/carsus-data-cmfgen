@@ -1,0 +1,299 @@
+********************************************************************************
+ 
+            Photoionization cross-sections from N2 to NIII(( 2s 2p^2 4Po)
+	    [ground state]. We have assumed that the 2p^3 singlet states
+            can also autoionizat to the 2s2p^2 4Po state.
+	    Data are from DETAIL (PACO)
+ 
+            N2 has 4 active electrons.
+	    Level names are proceed by 2s^2 except
+                     (i)  2p^2_nl terms which are proceed by 2s
+                    (ii)  2p^3 terms proceed by 2s
+                    (iii) 2p^4 term - as is
+            N2 core configurations are:
+                          		2s^2 2p (2Po)
+                          		2s 2p^2 (4P)
+                          		2s 2p^2 (2D)    Denoted by '
+                          		2s 2p^2 (2S)    Denoted by ''
+                          		2s 2p^2 (2P)    Denoted by '''
+ 
+********************************************************************************
+28-Feb-1997                            !Date
+52                                     !Number of energy levels
+3                                      !Number of photoionization routes
+2.0                                    !Screened nuclear charge
+2s_2p2_2De/2s2p2p2D                     !Final state in ion
+100910.00                              !Excitation energy of final state
+10.0                                   !Statistical weight of ion
+0.0                                    !Sigma used for Gaussian smoothing (km/s)
+Megabarns                              !Cross-section unit
+False                                  !Split J levels
+60                                     !Total number of data pairs
+  
+2p^2_3Pe                               !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p^2_1De                               !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p^2_1Se                               !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p^3_5So                               !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p^3_3Do                               !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p^3_3Po                               !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p^3_1Do                               !Configuration name
+5                                      !Type of cross-section
+5                                      !Number of cross-section points
+  1.0217E+00
+  1.9425E+00
+ -2.3417E-01
+ -3.4496E-01
+  1.0000E+01
+  
+2p3s3Po                                !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p3s1Po                                !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p^3_3So                               !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p3p1Pe                                !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p3p3De                                !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p^3_1Po                               !Configuration name
+5                                      !Type of cross-section
+5                                      !Number of cross-section points
+  1.0938E+00
+  2.1597E+00
+ -1.5075E-01
+ -3.1117E-01
+  1.0000E+01
+  
+2p3p3Se                                !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p3p3Pe                                !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p3p1De                                !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p3p1Se                                !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p3d3Fo                                !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p3d1Do                                !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p3d3Do                                !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p3d3Po                                !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p3d1Fo                                !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p3d1Po                                !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p4s3Po                                !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p4s1Po                                !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p4p1Pe                                !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p4p3De                                !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p4p3Pe                                !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p4p3Se                                !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p4p1De                                !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p^2_3s5Pe                             !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p4p1Se                                !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p4d3Fo                                !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p4d1Do                                !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p4d3Do                                !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p4d3Po                                !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p4f1Fe                                !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p4f3Fe                                !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p4d1Fo                                !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p4f3Ge                                !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p4d1Po                                !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p4f1Ge                                !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p4f3De                                !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p4f1De                                !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p^2_3s3Pe                             !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p^3_'3Po                              !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p^2_3p3So                             !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p^2_3p5Do                             !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p^2_3p5Po                             !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p^2_3p3Do                             !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p^2_3p5So                             !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
+  
+2p^2_3p3Po                             !Configuration name
+0                                      !Type of cross-section
+1                                      !Number of cross-section points
+  0.0000E+00
