@@ -12,11 +12,11 @@ jobs:
       SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
 
     steps:
-      - uses: act10ns/slack@v2.0.0
-        with:
-          status: starting
-          message: Starting Check CMFGEN data update workflow
-        if: always()
+      #- uses: act10ns/slack@v2.0.0
+       # with:
+        #  status: starting
+         # message: Starting Check CMFGEN data update workflow
+        #if: always()
         
       - name: Checkout github repo
         uses: actions/checkout@v3
@@ -58,9 +58,9 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
                               
-      - name: Report status 
-        uses: act10ns/slack@v2.0.0
-        with:
-          status: ${{ job.status }}
-          steps: ${{ toJson(steps) }}
-        if: always()
+     # - name: Report status 
+      #  uses: act10ns/slack@v2.0.0
+      #  with:
+      #    status: ${{ job.status }}
+      #    steps: ${{ toJson(steps) }}
+      #  if: always()
