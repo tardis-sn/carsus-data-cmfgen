@@ -48,9 +48,9 @@ jobs:
           git commit -m "New dataset added"
           
       - name: Check Error Code
+        continue-on-error: true
         run: |
-          echo "Checking error code"
-          if [[ ${{ steps.commit_changes.outcome }} == 'failure' && ${{ steps.commit_changes.exit_code }} -eq exit 1 ]]; then
+          if [[ ${{ steps.commit_changes.outcome }} == 'failure' && ${{ steps.commit_changes.exit_code }} -eq 1 ]]; then
             echo "Error code 1 encountered, treating as success"
             exit 0
           fi
