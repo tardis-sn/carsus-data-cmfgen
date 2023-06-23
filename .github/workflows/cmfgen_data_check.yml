@@ -46,6 +46,14 @@ jobs:
         run: |
           git add .
           git commit -m "New dataset added"
+          
+      - name: Check Error Code
+        run: |
+          echo "Checking error code"
+          if [[ ${{ steps.commit_changes.outcome }} == 'failure' && ${{ steps.commit_changes.exit_code }} -eq exit 1 ]]; then
+            echo "Error code 1 encountered, treating as success"
+            exit 0
+          fi
 
       - name: Push changes 
         uses: ad-m/github-push-action@master
