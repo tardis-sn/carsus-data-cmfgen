@@ -46,9 +46,9 @@ jobs:
         run: |
           git add .
           git commit -m "New dataset added"
-          if [[ ${{ steps.commit_changes.outcome }} == 'failure' && ${{ steps.commit_changes.exit_code }} -eq 1 ]]; then
+          if [ $exit_code -eq 1 ] ; then
             echo "Error code 1 encountered, treating as success"
-            echo "::set-output name=job_success::true"
+            #echo "::set-output name=job_success::true"
             exit 0
           fi
 
