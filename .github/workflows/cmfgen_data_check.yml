@@ -1,0 +1,66 @@
+name: Check CMFGEN data update workflow
+
+on:
+  schedule:
+    - cron: '0 0 * * 5'  #runs on every Friday midnight
+  workflow_dispatch:
+  
+env:
+  SOURCE_URL: https://kookaburra.phyast.pitt.edu/hillier/cmfgen_files/atomic_data_15nov16.tar.gz
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
+
+    steps:
+      - uses: act10ns/slack@v2.0.0
+        with:
+          status: starting
+          message: Starting Check CMFGEN data update workflow
+        if: always()
+        
+      - name: Checkout github repo
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+
+      - name: Configure git
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          
+      - name: Download data
+        id: download_data
+        run: |
+          wget -q -U "Mozilla/4.0" $SOURCE_URL -O /tmp/atomic.tar.gz
+          tar -zxf /tmp/atomic.tar.gz 
+          
+      - name: Compare changes
+        id: compare
+        run: |
+          git add .
+          git diff --quiet --exit-code --cached
+          FILE_CHANGE=$?
+          echo "change=$FILE_CHANGE" >> "$GITHUB_OUTPUT"
+
+      - name: Commit files to git
+        id: commit_changes
+        if: ${{ steps.compare.outputs.change == 1 }}
+        run: |
+          git commit -m "New dataset added"
+
+      - name: Push changes
+        if: ${{ steps.compare.outputs.change == 1 }}
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
+          
+      - name: Report status 
+        uses: act10ns/slack@v2.0.0
+        with:
+          status: ${{ job.status }}
+          steps: ${{ toJson(steps) }}
+        if: always()
