@@ -46,18 +46,18 @@ jobs:
         run: |
           git add .
           git commit -m "New dataset added"
-          if [ $exit_code -eq 1 ] ; then
-            echo "Error code 1 encountered, treating as success"
-            #echo "::set-output name=job_success::true"
-            exit 0
-          fi
 
       - name: Push changes 
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
-                              
+          
+  notify:
+    needs: [build]
+    runs-on: ubuntu-latest
+    if: always() 
+    steps:
       - name: Report status 
         uses: act10ns/slack@v2.0.0
         with:
