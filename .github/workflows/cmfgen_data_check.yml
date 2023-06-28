@@ -53,11 +53,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
           
-  notify:
-    needs: [build]
-    runs-on: ubuntu-latest
-    if: always() 
-    steps:
       - name: Report status 
         uses: act10ns/slack@v2.0.0
         with:
