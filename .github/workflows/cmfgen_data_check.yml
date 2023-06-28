@@ -31,14 +31,14 @@ jobs:
       - name: Make temporary directories
         id: setup
         run: |
-          mkdir ~/temp
+          mkdir /tmp
           
       - name: Download data
         id: download_data
         run: |
           SOURCE_URL=https://kookaburra.phyast.pitt.edu/hillier/cmfgen_files/atomic_data_15nov16.tar.gz
-          wget -q -U "Mozilla/4.0" $SOURCE_URL -O ~/temp/atomic.tar.gz
-          tar -zxf ~/temp/atomic.tar.gz 
+          wget -q -U "Mozilla/4.0" $SOURCE_URL -O /tmp/atomic.tar.gz
+          tar -zxf /tmp/atomic.tar.gz 
           
       - name: Commit files to git
         id: commit_changes
