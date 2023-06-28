@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: '0 0 * * 5'  #runs on every Friday midnight
   workflow_dispatch:
+  
+env:
+  SOURCE_URL: https://kookaburra.phyast.pitt.edu/hillier/cmfgen_files/atomic_data_15nov16.tar.gz
 
 jobs:
   build:
@@ -36,7 +39,6 @@ jobs:
       - name: Download data
         id: download_data
         run: |
-          SOURCE_URL=https://kookaburra.phyast.pitt.edu/hillier/cmfgen_files/atomic_data_15nov16.tar.gz
           wget -q -U "Mozilla/4.0" $SOURCE_URL -O /tmp/atomic.tar.gz
           tar -zxf /tmp/atomic.tar.gz 
           
