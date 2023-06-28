@@ -45,7 +45,15 @@ jobs:
         id: commit_changes
         run: |
           git add .
-          git commit -m "New dataset added"
+          git diff --quiet --exit-code --cached
+          exit_code=$?
+          if [ $exit_code -eq 0 ]; then
+            echo "No changes in the CMFGEN data to commit"
+            exit 0
+          else
+            git commit -m "New dataset added"
+            echo "Changes committed"
+          fi
 
       - name: Push changes 
         uses: ad-m/github-push-action@master
