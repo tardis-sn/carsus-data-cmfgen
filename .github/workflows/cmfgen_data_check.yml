@@ -42,8 +42,17 @@ jobs:
           wget -q -U "Mozilla/4.0" $SOURCE_URL -O /tmp/atomic.tar.gz
           tar -zxf /tmp/atomic.tar.gz 
           
+      - name: Compare changes
+        id: compare
+        run: |
+          git add .
+          git diff --quiet --exit-code --cached
+          FILE_CHANGE=$?
+          echo "change=$FILE_CHANGE" >> "$GITHUB_OUTPUT"
+
       - name: Commit files to git
         id: commit_changes
+        if: ${{ steps.compare.outputs.change == 1 }}
         run: |
           git add .
           git diff --quiet --exit-code --cached
@@ -56,7 +65,8 @@ jobs:
             echo "Changes committed"
           fi
 
-      - name: Push changes 
+      - name: Push changes
+        if: ${{ steps.compare.outputs.change == 1 }}
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
