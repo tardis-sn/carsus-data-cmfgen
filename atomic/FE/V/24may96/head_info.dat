@@ -1,0 +1,25 @@
+
+******************************************************************************
+
+       Energy levels and statistical weights for Fe V
+
+>> Data is from Keith Butler
+>>   Degeneracy in term replaced by an a or b (ie 3P2e => b3Pe)
+>>   Maximum energy included = Ionization energy =>   605000.
+>>   Put into John`s format by create.f
+>> Data is from NIST
+>>   Maximum energy included = Ionization energy =>   605000.
+>>   Put into John`s format by create.f
+>> Data from Keith Butler rewritten with NIST energies
+>>   176 energies from NIST included
+>>   6 energies from Keith Butler scaled by  0.9998
+
+  Config        Statistical   Energy    Ionization
+                  Weight      (cm-1)    Energy(eV)
+******************************************************************************
+
+24-May-1996                             !Date
+182                                     !Number of energy levels
+605000.                                 !Ionization energy
+5.0                                     !Screened nuclear charge
+3800                                    !Number of transitions

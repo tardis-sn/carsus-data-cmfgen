@@ -1,0 +1,103 @@
+Info on ejecta using model CO.45HE.2_B.compos and read_he.pro
+Info on stable/unstable and half-lives from http://ie.lbl.gov/education/isotopes.htm
+Infor on gamma-ray lines and positron emission from http://www.nndc.bnl.gov/chart/
+and then click on isotope in the chart and select "decay radiation"
+
+%%%%%%%%%
+
+Decay chains
+Note that the Q values correspond to the total mass-defect energy (delta_m c^2).
+Energy production can be through gammas, betas (beta-/+ decay with emission of e- or e+),
+X-rays/electrons (usually small fraction), or neutrinos (which escape).
+Electron Capture: proton + electron -> neutron + ν
+Beta- decay: neutron -> proton + electron + anti-neutrino
+beta+ decay: proton -> neutron + positron + neutrino
+
+β- decay Q-value=Mass(Z,N) - Mass(Z+1,N-1)
+β+ decay Q-value=Mass(Z,N) - Mass(Z-1,N+1)- 2×Mass(electron)
+Electron Capture Q-value=Mass(Z,N) - Mass(Z-1,N+1)- Binding Energy(electron)
+Use Q-value for the transition: http://www.nndc.bnl.gov/qcalc/
+
+
+56Ni/56Co are proton-rich and decay through EC and beta+.
+Ex: beta+ of 56Co (19% of cases):
+    Q_neutrino=4.566-2.085 - 2*(0.511) - 0.6312 = 0.827 MeV ! (Nadyozhin 94) 
+               Eup   Elow      e+e-      emin_e+   
+
+%%%%%%%%%
+
+Ni56: HUO JUNDE   Citation:Nuclear Data Sheets 86, 315 (1999)
+      Neglect beta+ and annihilation gammas since low energy.
+
+Co56: HUO JUNDE   Citation:Nuclear Data Sheets 86, 315 (1999)
+      Important beta+ (positron) production and annihilation (511, at 38%).
+
+Ni57: M. R. BHAT   Citation:Nuclear Data Sheets 85, 415 (1998)
+      Important beta+ (positron) production and annihilation (511, at 87%).
+
+Co57: M. R. BHAT   Citation:Nuclear Data Sheets 85, 415 (1998)
+      No beta+ - 100% EC.
+
+Fe52: Select the isotope that has a half-life of 8.275hr (rather than Fem52 with 45.9s).
+      Use http://ie.lbl.gov/toi/nuclide.asp?iZA=260352
+      Beta+ for Fe52 is overestimated in my table since I use their end-point energy, which
+      is the maximum positron energy. Issues here with whether one considers Fem52/Mnm42.
+      Not sure what to do. Results close to Bildsten et al 97 though.
+
+Mn52: HUO JUNDE, HUO SU, MA CHUNHUI   Citation:Nuclear Data Sheets 108, 773 (2007)
+      important annihilation and beta+ decay
+
+Cr48: T. W. Burrows   Citation:Nuclear Data Sheets 107, 1747 (2006)
+      negligible annihilation and beta+
+
+V48: T. W. Burrows   Citation:Nuclear Data Sheets 107, 1747 (2006)
+     important annihilation and beta+      
+
+Resulting NUC_DECAY_DATA file: (7 June 2010)
+NICK        55.942132    6.0749     COB    55.939839    1.7183    F
+COB         55.938904    77.233     IRON   55.934937    3.7488    S
+NICK        56.939793    1.483      COB    56.936291    2.0951    F
+COB         56.936291  271.74       IRON   56.935393    0.12184   S
+IRON        51.948114    0.3448     MAN    51.945566    0.6210    F
+MAN         51.945566    5.591      CHRO   51.940508    3.5610    S
+CHRO        47.954032    0.898333   VAN    47.952253    0.4340    F
+VAN         47.952253   15.9735     TIT    47.947946    3.0553    S
+
+%%%%%%%%%
+
+Total ejecta yields in model  CO.45HE.2_B (.compos and .rtplot)
+       he4      0.11110407   S
+       c12      0.22551986   S
+       o16      0.22498961   S
+      ne20   8.8818550e-06   S
+      mg24   3.9575866e-05   S
+      si28   0.00098293110   S
+      si29   2.5021112e-05   S
+       p31   1.8123685e-05   S IGNORE
+       s32    0.0045392368   S
+       s34   4.4147714e-05   S
+      cl35   0.00014271593   S IGNORE
+      ar36    0.0055241221   S
+      ar38   2.7769823e-05   S
+       k39   0.00094222640   S IGNORE
+      ca40     0.034212515   S
+      ca43   8.4283020e-05   S
+      ti44     0.032708355   U half-life 63 yr => Treat as stable (48Ti)
+      ti47   0.00036574483   S
+      ti48   9.3193566e-05   S
+       v47   1.6791896e-06   U half-life 32.6m => already decayed
+       v48    0.0031992603   U half-life 15.9735 d
+       v49   5.9653223e-05   U half-life 330d => treat as stable
+      cr47   5.1786030e-07   U Decay half-life of 500ms => IGNORE
+      cr48    0.0022987718   U half-life 21.56 hr !!!!!!
+      cr51   0.00035778978   U half-life 27.7025 d
+      mn52   0.00078007018   U half-life 5.591 d
+      mn53   4.9794345e-05   U half-life  3.74e+6 y => Consider stable
+      fe52   8.4601545e-05   U half-life 8.275 hr
+      fe55   7.7711946e-05   U half-life 2.73 yr => treat as stable
+      co55   3.8576420e-05   U half-life 17.53 hr
+      ni56   9.8037795e-05   U half-life 6.077 d
+      ni57   1.8332767e-05   U half-life 35.60 hr
+      ni58   1.6128106e-05   S
+
+%%%%%%%%%

@@ -1,0 +1,17 @@
+ 
+******************************************************************************
+ 
+       Colisional data for O I
+       From Mendoza (IAU SYmp. 103, p143)
+ 
+******************************************************************************
+ 
+0                                       !Number of transitions
+5                                       !Number of T values OMEGA tabulated at
+1.0                                     !Scaling factor for OMEGA (non-FILE values).
+0.1                                     !Value for OMEGA if f=0
+ 
+    Transition\T            0.05       0.1        0.5        1.0        2.0
+2s2_2p4_3Pe- 2s2_2p4_1De    0.0058    0.0151     0.124      0.266      0.501
+2s2_2p4_3Pe- 2s2_2p4_1Se    0.00065   0.00184    0.0153     0.0324     0.0607
+2s2_2p4_1De- 2s2_2p4_1Se    0.0221    0.0310     0.0732     0.105      0.148

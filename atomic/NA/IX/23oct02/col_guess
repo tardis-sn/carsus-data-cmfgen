@@ -1,0 +1,14 @@
+
+******************************************************************************
+
+       Colisional data for NaIX
+
+******************************************************************************
+
+0                                       !Number of transitions
+4                                       !Number of T values OMEGA tabulated at
+1.0                                     !Scaling factor for OMEGA (non-FILE values).
+0.1                                     !Value for OMEGA if f=0
+
+    Transition\T           0.2        1.0        10.0      100.0
+

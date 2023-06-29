@@ -1,0 +1,18 @@
+
+********************************************************************************
+
+                 Energy Levels and statistical weights for HEI
+          NEW Level Energies are from:
+           W.C.Martin 1987,Physical Review A,Vol.36,Numb.8,p.3575
+          Appart from the new energy values main changes are:
+          -- 1Fo and 3Fo states have been switched in order.
+          -- 3Zo and 1Zo have a weighted mean of L>=3 terms.
+          Lambdas for transitions are in air.
+
+********************************************************************************
+
+4-OCT-1992                                       !Date
+69                                               !Number of energy levels
+198310.7727                                      !Ionization energy
+1.0                                              !Screened nuclear charge
+905                                              !Number of transitions

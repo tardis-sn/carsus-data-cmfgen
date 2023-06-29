@@ -1,0 +1,23 @@
+
+******************************************************************************
+
+       Collisional data for Mg VI
+       Guess based on that for NaV
+
+******************************************************************************
+
+8                                       !Number of transitions
+1                                       !Number of T values OMEGA tabulated at
+1.0                                     !Scaling factor for OMEGA (non-FILE values).
+0.1                                     !Value for OMEGA if f=0
+
+    Transition\T                        1.0  
+
+2s2_2p3_4So[3/2]-2s2_2p3_2Do[5/2]       0.4D0
+2s2_2p3_4So[3/2]-2s2_2p3_2Do[3/2]       0.3D0
+2s2_2p3_4So[3/2]-2s2_2p3_2Po[3/2]       0.2
+2s2_2p3_4So[3/2]-2s2_2p3_2Po[1/2]       0.1
+2s2_2p3_2Do[5/2]-2s2_2p3_2Po[3/2]       0.4   
+2s2_2p3_2Do[5/2]-2s2_2p3_2Po[1/2]       0.15
+2s2_2p3_2Do[3/2]-2s2_2p3_2Po[3/2]       0.15
+2s2_2p3_2Do[3/2]-2s2_2p3_2Po[1/2]       0.40

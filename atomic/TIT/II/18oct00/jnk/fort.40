@@ -1,0 +1,27 @@
+************************************************************************************************************************
+
+                 Energy Levels and statistical weights for TkII
+
+                            g        E(cm^-1)    10^15 Hz     eV       Lam(A)       ID      ARAD       GAM2        GAM4
+************************************************************************************************************************
+
+17-Oct-2000                                      !Format date
+18-Oct-2000                                      !Date
+1000                                             !Number of energy levels
+109494.0000                                      !Ionization energy
+2.0                                              !Screened nuclear charge
+93118                                            !Number of transitions
+************************************************************************************************************************
+
+                 Energy Levels and statistical weights for TkII
+
+                            g        E(cm^-1)    10^15 Hz     eV       Lam(A)       ID      ARAD       GAM2        GAM4
+************************************************************************************************************************
+
+17-Oct-2000                                      !Format date
+18-Oct-2000                                      !Date
+1000                                             !Number of energy levels
+109494.0000                                      !Ionization energy
+2.0                                              !Screened nuclear charge
+93118                                            !Number of transitions
+ Final number of transitions found is:  93118

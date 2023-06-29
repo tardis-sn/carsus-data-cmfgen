@@ -1,0 +1,27 @@
+**************************************************************************************************************************
+**************************************************************************************************************************
+
+Collision strengths (Omega[i,k]) for Ca II. The collisional excitation rate
+is defined by
+
+           C(i,k)=8.63D-08 OMEGA(i,k) EXP(-U0) / Gi /sqrt(T_4).
+
+We also use the same definition for the ionization collision strength.
+For ionization of low lying levels we expect OMEGA(i,i) to be propotional to T.
+
+Reference: Shine and Linsky (1974, Solar Physics, 39)
+           (NB Outside table range, Omega assumed to be constant)
+
+**************************************************************************************************************************
+**************************************************************************************************************************
+
+3 				!Number of transitions
+4                               !Number of T values OMEGA tabulated at
+1.0				!Scaling factor for OMEGA (non-FILE values).
+0.1 				!Value for OMEGA if f=0
+
+Transition\T              0.3       0.5      0.7      0.9
+
+4s2Se-3d2De              14.0      14.0     14.0     14.0
+4s2Se-4p2Po              13.7      14.4     13.0     12.8
+3d2De-4p2Po              73.6      76.8     78.9     80.5

@@ -1,0 +1,225 @@
+****************************************************************************
+****************************************************************************
+
+List of charge exchange reactions: The data must have the following format.
+The first data line in the file should contain the number of charge exchange 
+followed by ! and then immediately the string,
+
+   Number of charge exchange reactions.
+
+For a reaction of the form
+
+        X++ + Y+  -->  X+ + Y++
+
+the SPECIES and LEVEL of reactant should be specified IN ORDER on the
+same line (with at least 2 spaces between values):
+           X++ must be specfied before Y+
+           X+  must be specfied before Y++
+
+Since we makeing level naming more systematic, an alternative level name
+can be specifed /ALT_NAME IMMEADIATELY after the usual level name. All species
+and level names must not contain spaces.
+
+One the next line:
+                Fitting formula
+                Number of ocefficients:
+                The coefficients, and TLOW and THI (same or separate lines)
+
+TLOW and THI specify the temperature range of the fitting formula, in
+units of 10^4K. Outside this range, the value at THI is used.
+
+****************************************************************************
+****************************************************************************
+
+19        	!Number of charge exchange reactions
+27-Nov-2000     !Format date
+27-Nov-2000     !Modification date
+
+CIII  2s2p3Po  HeI  1s1s1Se   C2  2s2_2p_2Po/2s2s2p2Po     He2  1___
+3
+3
+6.67D-12
+2.0D0
+-0.07D0
+0.0D0
+10.0D0
+
+N2   2s2_2p2_3Pe/2p^2_3Pe    HI   1___   NI   2s2_2p3_4So/2p^3_4So   H2  ION
+2
+4
+1.01D-12
+-0.29D0
+-0.92D0
+-8.38D0
+1.0D-02
+4.0D+00
+
+NIII    2s2s2p2Po/2s2_2p_2Po   HI  1___  N2    2s2_2p2_3Pe/2p^2_3Pe    H2  ION
+2
+4
+3.05D-10
+0.60D0
+2.65
+-0.93 
+0.10
+10.0
+
+NIII    2s2s2p2Po/2s2_2p_2Po   HeI    1s1s1Se   N2    2s2_2p2_3Pe/2p^2_3Pe    He2  1___
+2
+4
+3.3D-10
+0.29D0
+1.30
+-4.50 
+0.10
+3.0
+
+O2  2s2_2p3_4So/2p^3_4So   HI   1___    OI  2s2_2p4_3Pe  H2   ION
+2
+4
+1.04D-09
+0.0315D0
+-0.61D0
+-9.73D0
+1.0D-03
+1.0D+00
+
+OIII  2s2_2p2_3Pe/2p^2_3Pe   HI    1___  O2   2s2_2p3_4So    H2  ION
+2
+4
+1.04D-09
+0.27D0
+2.02
+-5.92 
+0.01
+10.0
+
+SkIII    3s21Se/3s2_1Se   HI  1___   Sk2    3s2(1S)3p2Po/3s2_3p_2Po  H2  ION
+2
+4
+6.77D-09
+7.36D-02
+-0.43
+-0.11 
+0.05
+10.0
+
+SkIV    3s2Se/3s_2Se   HI  1___   SkIII   3s21Se/3s2_1Se    H2  ION
+2
+4
+4.90D-10
+-8.74D-02
+-0.36
+-0.79
+0.1D0
+3.0 
+
+TkIV    3d_2De   HI    1___     TkIII   3d2_3Fe       H2      ION
+2
+4
+6.34D-10
+6.87D-03
+0.18
+-8.04
+0.1
+3.0
+
+CrIII   3d4_5De  HI    1___     Cr2    3d5_a6Se    H2      ION
+2
+4
+5.27D-09
+0.61
+-0.89
+-3.56
+0.10
+3.00
+
+CrIV    3d3_4Fe  HI   1___      CrIII  3d4_5De      H2     ION
+2
+4
+1.09D-08
+0.24
+0.26
+-11.94
+0.1
+3.0
+
+MnIII   3d5_a6Se  HI  1___     Mn2  3d5(6S)4s_a7Se   H2     ION
+2
+4
+1.65D-10
+6.80D-03
+6.44E-02
+-9.70
+0.10
+3.0
+
+MnIV  3d4_5De    HI   1___     MnIII  3d5_a6Se       H2      ION
+2
+4
+1.42D-08
+0.34
+-0.41
+-1.19
+0.1
+3.0
+
+FeIII   3d65De/3d6_5De   HI    1___      Fe2  3d6(5D)4sa6De  H2    ION
+2
+4
+1.26D-09
+0.0772D0
+-0.41
+-7.31
+0.10
+10.0
+
+FeIV  3d56Se/3d5_6Se    HI     1___    FeIII  3d65De/3d6_5De      H2   ION
+2
+4
+3.42D-09
+0.51
+-2.06
+-8.99
+0.1
+10.0
+
+CoIII   3d7_a4Fe  HI   1___    Co2   3d8_a3Fe/3d8_3Fe    H2   ION
+2
+4
+5.3D-09
+0.24
+-0.91
+-0.47
+0.1
+3.0
+
+CoIV   3d6_5De    HI    1___   CoIII   3d7_a4Fe   H2    ION
+2
+4
+3.26D-09
+0.87
+2.85
+-9.23
+0.1
+3.0
+
+NkIII  3d8_3Fe    HI    1___    Nk2    3d9_2De  H2   ION
+2
+4
+1.05D-09
+1.28
+6.54
+-1.81
+0.1
+10.0
+
+NkIV   3d7_4Fe    HI    1___    NkIII     3d8_3Fe   H2   ION
+2
+4
+9.73D-09
+0.35
+0.90
+-5.33
+0.1
+3.0

@@ -1,0 +1,27 @@
+18oct00/  
+   Preferred data set. Data set is much more extenisve than earlier
+   data set. In grid calculations, all levels are not needed.
+   It is has not yet been determined at what temperatures these high
+   levels (which don't necessarily have observed energies) may need to
+   be included in flux calculations.
+
+  Oscillator strengths are from Kurucz.
+  NIST energy levels inserted.
+  Photoionization data is from the OPACITY project, where available.
+  
+  No collisional data are yet available. As a consequence we have 
+  not included Forbidden transitions occuring among the low lying
+  even parity states.
+  
+  The f_to_s_?.dat files have been created using WR_F_TO_S.
+  They have not been checked, and do not necassarily provide
+  the optimum choice of super levels.
+        
+  NB: In general there is little effective difference with
+      small data set for the levels in common. A few misidentified
+      levels may have been corrected.
+
+
+23oct95/  
+
+

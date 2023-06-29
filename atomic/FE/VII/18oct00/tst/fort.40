@@ -1,0 +1,75 @@
+ *****************************************************************************                                                      
+ *****************************************************************************                                                      
+                                                                                                                                    
+  LOG10[Cross sections] for Hydrogen for all (n,l) states up to n=30                                                                
+  Cross-sctions are in program units (i.e. cgs unit*10^10)                                                                          
+  Created 22-Nov-1996 using OUT_HYDL based on HDYCROSSL.                                                                            
+                                                                                                                                    
+  Format N, L, # of data points.                                                                                                    
+                                                                                                                                    
+ *****************************************************************************                                                      
+ *****************************************************************************                                                      
+                                                                                                                                    
+ 30                 !Maximum principal quantum number                                                                               
+ *****************************************************************************                                                      
+ *****************************************************************************                                                      
+                                                                                                                                    
+  Bound-free Gaunt factors for Hydrogen for all n states up to n=30.                                                                
+  Created 22-Nov-1996: Based on summing HDYCROSSL (n,l) rates.                                                                      
+                                                                                                                                    
+  Format N, # of data points.                                                                                                       
+                                                                                                                                    
+ *****************************************************************************                                                      
+ *****************************************************************************                                                      
+                                                                                                                                    
+ 30                 !Maximum principal quantum number                                                                               
+************************************************************************************************************************
+
+                 Energy Levels and statistical weights for FeVII
+
+                                g        E(cm^-1)    10^15 Hz     eV       Lam(A)       ID      ARAD       GAM2        GAM4
+************************************************************************************************************************
+
+17-Oct-2000                                      !Format date
+08-Nov-2000 09:35:15                             !Date
+1195                                             !Number of energy levels
+1008000.0000                                     !Ionization energy
+7.0                                              !Screened nuclear charge
+86504                                            !Number of transitions
+************************************************************************************************************************
+
+                 Energy Levels and statistical weights for FeVII
+
+                                g        E(cm^-1)    10^15 Hz     eV       Lam(A)       ID      ARAD       GAM2        GAM4
+************************************************************************************************************************
+
+17-Oct-2000                                      !Format date
+08-Nov-2000 09:35:15                             !Date
+1195                                             !Number of energy levels
+1008000.0000                                     !Ionization energy
+7.0                                              !Screened nuclear charge
+86504                                            !Number of transitions
+ Final number of transitions found is:  86504
+  
+**********************************************************************
+**********************************************************************
+
+Very crude photoionization cross-sections for FeVII
+
+**********************************************************************
+**********************************************************************
+
+08-Nov-2000 09:35:09                   !Date
+611                                    !Number of energy levels                                                                     
+1                                      !Number of photoionization routes
+7.0                                    !Screened nuclear charge
+3p6_3d_2De/3p63d2De                    !Final state in ion
+0.0                                    !Excitation energy of final state
+10.0                                   !Statistical weight of ion
+Megabarns                              !Cross-section unit
+False                                  !Split J levels
+42032                                  !Total number of data pairs
+
+ Summary of Photoionization routes for FeSEV
+ Final State/Phot ID                      1
+ 3p6_3d_2De                               T

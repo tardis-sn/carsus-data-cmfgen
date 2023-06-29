@@ -1,0 +1,6 @@
+1dec99
+     Use arvosc_rev.dat instead of fin_osc.dat, as several of the
+       Kurucz values are corrupted.
+     arvosc_rev.dat is based on data from the opacit project,
+     NIST energy levels, and the assumption of LS coupling. New data
+     from Nahar has not been incorported.

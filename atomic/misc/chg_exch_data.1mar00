@@ -1,0 +1,75 @@
+****************************************************************************
+****************************************************************************
+
+List of charge exchnage reactions: The data must have the following format.
+The first data line in the file should contain the number of
+charge exchange ractions followed by ! and then immediately the string,
+   Number of charge exchange reaction.
+
+where N is the nubmer of charge exchange reactions. For a reaction of the form
+
+        X++ + Y+  -->  X+ + Y++
+
+the SPECIES and LEVEL of reactant should be specified IN ORDER on the
+same line (with at least 2 spaces between values):
+           X++ must be specfied before Y+
+           X+  must be specfied before Y++
+
+Since we makeing level naming more systematic, an alternative level name
+can be specifed in {} IMMEADIATELY after the usual level name. All species
+and level names must not contain spaces.
+
+One the next line:
+                Fitting formula
+                Number of ocefficients:
+                The coefficients, and TLOW and THI (same or separate lines)
+
+TLOW and THI specify the temperature range of the fitting formula, in
+units of 10^4K. Outside this range, the value at THI is used.
+
+****************************************************************************
+****************************************************************************
+
+4        	!Number of charge exchange reactions
+01-Oct-1999     !Format date
+01-Oct-1999     !Modification date
+
+FeIII   3d65De   HI    1___      Fe2  3d6(5D)4sa6De  H2    ION
+2
+4
+1.26D-09
+0.0772D0
+-0.41
+-7.31
+1.0D-01
+1.0D+01
+                                      
+NIII  2s2s2p2Po{2s2_2p_2Po}  HeI  1s1s1Se{1s2_1Se}  N2  2p^2_3Pe  He2  1___
+2
+4
+3.3D-10
+0.29D0
+1.30
+-4.50 
+1.0D-01
+3.0D+00
+
+N2   2p^2_3Pe    HI   1___   NI   2p^3_4So   H2  ION
+2
+4
+1.01D-12
+-0.29D0
+-0.92D0
+-8.38D0
+1.0D-02
+4.0D+00
+
+O2  2s2_2p3_4So{2p^3_4So}  HI   1___    OI  2s2_2p4_3Pe  H2   ION
+2
+4
+1.04D-09
+0.0315D0
+-0.61D0
+-9.73D0
+1.0D-03  
+1.0D+00

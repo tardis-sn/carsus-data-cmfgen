@@ -1,0 +1,351 @@
+22-Sep-2006   !Format date                       ! Masses from http://ie.lbl.gov/toi2003/MassSearch.asp
+10            !Number of species                 ! Decay props from http://www.nndc.bnl.gov/chart/ and http://ie.lbl.gov/toi
+105           !Total number of isotopes
+4             !Maximum number of isotopes/species
+24            !Number of reactions.
+
+CHL         34.96885268  s   ! NEW
+CHL         35.96830698  s   ! NEW
+CHL         36.96590259  s   ! NEW
+
+ARG         35.96754510  s   ! NEW
+ARG         36.96677632  u   ! NEW
+ARG         37.9627324   s   ! NEW
+ARG         38.964313    s   ! NEW 269yr - ignore decay for now
+ARG         39.96238312  s   ! NEW
+ARG         40.9645006   u   ! NEW 109min 
+
+POT         36.97337589  u   ! NEW
+POT         37.9690812   u   ! NEW
+POT         38.96370668  s   ! NEW
+POT         39.96399848  s   ! NEW
+POT         40.96182576  s   ! NEW
+POT         41.96240281  u   ! NEW 12.36hr 
+POT         42.960716    u   ! NEW 22.3hr 
+
+CAL         39.96259098  s   ! NEW
+CAL         40.9622781   s   ! NEW  half-life =1e5yr
+CAL         41.9586180   s   ! NEW
+CAL         42.9587666   s   ! NEW
+CAL         43.9554818   s   ! NEW
+CAL         44.9561866   u   ! NEW 162.61d - ignore decay for now
+CAL         45.9536926   s   ! NEW
+
+SCAN        40.96925112  u   ! NEW 596.3ms - ignore decay for now
+SCAN        41.9655164   u   ! NEW 681.3ms - ignore decay for now
+SCAN        42.9611507   u   ! NEW 3.891hr
+SCAN        43.9594028   u   ! NEW
+SCAN        44.9559119   s   ! NEW
+SCAN        45.9551719   u   ! NEW 83.79d - ignore decay for now
+SCAN        46.9524075   u   ! NEW 3.3492 - ignore decay for now
+
+TIT         42.968522    u   ! NEW
+TIT         43.9596901   u   ! NEW
+TIT         44.9581256   u   ! NEW
+TIT         45.9526316   s   ! NEW
+TIT         46.9517631   s   ! NEW
+TIT         47.947946    s
+TIT         48.9478700   s   ! NEW
+TIT         49.9447912   s   ! NEW for Ia sims of Alexei
+
+VAN         44.965776    u   ! NEW
+VAN         45.9602005   u   ! NEW
+VAN         46.9549089   u   ! NEW
+VAN         47.952253    u   ! NEW
+VAN         48.9485161   u   ! NEW
+VAN         49.9471585   s   ! NEW for Ia sims of Alexei
+VAN         50.943960    s
+VAN         51.9447755   s   ! NEW for Ia sims of Alexei
+
+CHRO        44.97964     u   ! NEW
+CHRO        45.968359    u   ! NEW
+CHRO        46.962900    u   ! NEW
+CHRO        47.954032    u
+CHRO        48.9513357   u   ! NEW
+CHRO        49.9460442   s   ! NEW
+CHRO        50.9447674   u   ! NEW
+CHRO        51.940508    s
+CHRO        52.9406494   s   ! NEW for Ia sims of Alexei
+CHRO        53.9388804   s   ! NEW for Ia sims of Alexei
+CHRO        54.9408397   s   ! NEW for Ia sims of Alexei
+CHRO        55.9406531   s   ! NEW for Ia sims of Alexei
+CHRO        56.9436130   s   ! NEW for Ia sims of Alexei
+CHRO        57.944350    s   ! NEW for Ia sims of Alexei
+CHRO        58.948600    s   ! NEW for Ia sims of Alexei
+
+MAN         48.959618    u   ! NEW
+MAN         49.9542382   u   ! NEW
+MAN         50.9482108   u   ! NEW
+MAN         51.945566    u
+MAN         52.9412901   s   ! NEW
+MAN         53.9403589   s   ! NEW for Ia sims of Alexei
+MAN         54.938045    s
+MAN         55.9389049   s   ! NEW for Ia sims of Alexei
+MAN         56.9382854   s   ! NEW for Ia sims of Alexei
+MAN         57.939980    s   ! NEW for Ia sims of Alexei
+MAN         58.940440    s   ! NEW for Ia sims of Alexei
+MAN         59.942910    s   ! NEW for Ia sims of Alexei
+
+IRON        49.96299     s   ! NEW
+IRON        50.956820    s   ! NEW
+IRON        51.948114    u
+IRON        52.9453079   s   ! NEW
+IRON        53.939611    s
+IRON        54.9382934   s   ! NEW
+IRON        55.934937    s
+IRON        56.935393    s
+IRON        57.9332756   s   ! NEW for Ia sims of Alexei
+IRON        58.9348755   s   ! NEW for Ia sims of Alexei
+IRON        59.934072    s   ! NEW for Ia sims of Alexei
+IRON        60.936745    s   ! NEW for Ia sims of Alexei
+IRON        61.936767    s   ! NEW for Ia sims of Alexei
+
+COB         52.954219    s   ! NEW for Ia sims of Alexei
+COB         53.9484596   s   ! NEW
+COB         54.9419990   u   ! NEW
+COB         55.939839    u
+COB         56.936291    u
+COB         57.9357528   s   ! NEW for Ia sims of Alexei
+COB         58.933195    s
+COB         59.9338171   u   ! Half-life is 5.271 years (assume stable for now)
+COB         60.9324758   u   ! Half-life is 1.650 hours
+
+NICK        54.951330    s   ! NEW
+NICK        55.942132    u
+NICK        56.939793    u
+NICK        57.935343    s
+NICK        58.9343467   s   ! NEW
+NICK        59.9307864   s   ! NEW
+NICK        60.9310560   s   ! NEW
+NICK        61.9283451   s   ! NEW
+NICK        62.9296694   s   ! NEW for Ia sims of Alexei
+NICK        63.9279660   s   ! NEW for Ia sims of Alexei
+
+!
+! Species   Mass       Half-Life    DP      DMass     E/Decay   Order  # of gam-ray lines
+!           (amu)       (Days)              (amu)      (MeV)
+!
+! NB: CMFGEN routines currently only handles 1 or 2-step decay chains.
+!
+
+NICK        55.942132    6.0749     COB    55.939839    1.7182758   F     6
+COB         55.938904    77.233     IRON   55.934937    3.7488932   S    15
+
+NICK        56.939793    1.48333    COB    56.936291    2.0913      F     5
+COB         56.936291    271.74     IRON   56.935393    0.1218      S     3
+
+CHRO        47.954032    0.89833    VAN    47.952253    0.4340      F     3
+VAN         47.952253    15.97350   TIT    47.947946    3.0553      S     5
+
+CHRO        48.9513357   0.02937    VAN    48.9485161   1.6530      F     4
+VAN         48.9485161   330.000    TIT    48.9478700   0.0         S     1
+
+MAN         50.9482108   0.03200    CHRO   50.9447674   1.9256      F     1
+CHRO        50.9447674   27.7000    VAN    50.943960    0.0317      S     1
+
+COB         54.9419990   0.73042    IRON   54.9382934   2.3730      F     6
+IRON        54.9382934   1002.20    MAN    54.938045    0.0         S     1
+
+POT         36.97337589  1.419e-05  ARG    36.96677632  3.4193      F     3
+ARG         36.96677632  35.04      CHL    36.96590259  0.0001      S     1
+
+IRON        51.948114    0.34479    MAN    51.945566    0.9421      F     3
+MAN         51.945566    0.01472    CHRO   51.940508    3.5604      S     4
+
+TIT         43.9596901   21915.0    SCAN   43.9594028   0.0         F     1
+SCAN        43.9594028   0.16542    CAL    43.9554818   2.7317      S     2
+
+ARG         40.9645006   0.07612    POT    40.96182576  1.747       E     2 
+POT         41.96240281  0.5134     CAL    41.9586180   1.706       E     1
+POT         42.960716    0.929      CAL    42.9587666   1.274       E    10
+SCAN        42.9611507   0.16213    CAL    42.9587666   1.404       E     2
+SCAN        46.9524075   3.3492     TIT    46.9517631   0.27087     E     1
+COB         60.9324758   0.06875    NICK   60.9310560   0.555       E     3
+
+!
+! For MC gamma-ray transport code:
+! Gamma Ray line list taken from http://www.nndc.bnl.gov/chart/
+! We add the annihilation line 511keV (2 such photons when positron formation)
+! and we add the ekin_positron (probability of positron formation already
+! accounted for - ekin deposited fully at decay location)
+!
+
+NICK        55.942132
+E (MeV)     Probability
+0.158        0.988
+0.270        0.365
+0.480        0.365
+0.750        0.495
+0.812        0.860
+1.562        0.140
+0.0                    !Mean positron energy
+
+COB         55.939839
+E (MeV)     Probability
+0.511        0.380
+0.847        1.000
+0.977        0.014
+1.038        0.140
+1.175        0.023
+1.238        0.676
+1.360        0.043
+1.771        0.157
+2.015        0.031
+2.035        0.079
+2.598        0.173
+3.010        0.010
+3.202        0.032
+3.253        0.079
+3.273        0.019
+0.11589841              !Mean positron energy
+
+NICK        56.939793
+E (MeV)     Probability
+0.1272         0.1670
+0.5110         0.8700
+1.3776         0.8170
+1.7575         0.0575
+1.9195         0.1226
+0.1545                  !Mean positron energy
+
+COB         56.936291
+E (MeV)     Probability
+0.0144        0.0916
+0.1221        0.8560
+0.1365        0.1068
+0.0                     !Mean positron energy
+
+CHRO        47.954032
+E (MeV)     Probability
+0.1124       0.9600
+0.3083       1.0000
+0.5110       0.0320
+0.0015                 !Mean positron energy
+
+VAN         47.952253
+E (MeV)     Probability
+0.5110         0.9980
+0.9441         0.0776
+0.9835         0.9998
+1.3121         0.9750
+2.2404         0.0241
+0.1449                  !Mean positron energy
+
+CHRO        48.9513357
+E (MeV)     Probability
+0.0623         0.1640
+0.0906         0.5320
+0.1529         0.3030
+0.5110         1.8600
+0.5978                   !Mean positron energy
+
+VAN         48.9485161
+E (MeV)     Probability
+0.5110         0.0
+0.                       !Mean positron energy
+
+MAN         50.9482108
+E (MeV)     Probability
+0.5110         1.9417
+0.9334                   !Mean positron energy
+
+CHRO        50.9447674
+E (MeV)     Probability
+0.3201         0.0991
+0.                       !Mean positron energy
+
+COB         54.9419990
+E (MeV)     Probability
+0.4772         0.2020
+0.5110         1.5200
+0.9311         0.7500
+1.3166         0.0710
+1.3700         0.0290
+1.4085         0.1690
+0.4304                   !Mean positron energy
+
+COB         60.9324758
+E (MeV)     Probability
+0.0674       0.847
+0.8417       0.0079
+0.9092       0.036
+0.459                    !Mean electron energy
+
+IRON        54.9382934
+E (MeV)     Probability
+0.511          0.0
+0.                       !Mean positron energy
+
+POT         36.97337589
+E (MeV)     Probability
+0.5110       1.9980
+2.7960       0.0180
+3.6010       0.0002
+2.3473                   !Mean positron energy
+
+ARG         36.96677632
+E (MeV)     Probability
+0.0026       0.0550
+0.                       !Mean positron energy
+
+ARG         40.9645006
+E (MeV)     Probability
+1.29364      0.9916
+1.6770       0.00052
+0.4639                   !Mean electron energy (beta-)
+
+IRON        51.948114
+E (MeV)     Probability
+0.1687       0.9920
+0.3777       0.0164
+0.5110       1.1200
+0.1907                   !Mean positron energy
+
+MAN         51.945566
+E (MeV)     Probability
+0.5110       1.9000
+1.4341       0.9830
+2.9650       0.0100
+3.1290       0.0100
+1.1130                   !Mean positron energy
+
+TIT         43.9596901
+E (MeV)     Probability
+0.511          0.0
+0.                       !Mean positron energy
+
+SCAN        43.9594028
+E (MeV)     Probability
+0.5110       1.8854
+1.1570       0.9990
+0.5958                   !Mean positron energy
+
+SCAN        42.9611507
+E (MeV)     Probability
+0.3729       0.225
+0.5110       1.762
+0.4194                   !Mean positron energy (averaged over all decays)
+
+SCAN        46.9524075 
+E (MeV)     Probability
+0.1594       0.683
+0.162                    !Mean electron energy
+
+POT         41.96240281
+E (MeV)     Probability
+1.5246       0.1808
+1.4301                   !Mean energy of electron
+
+POT         42.960716
+E (MeV)     Probability
+0.2206       0.0480
+0.3728       0.8680
+0.3969       0.1185
+0.4042       0.00365
+0.5934       0.1126
+0.6175       0.792
+0.8011       0.00148
+0.9902       0.0029
+1.0217       0.0196
+1.3940       0.00131
+0.310                    !Mean energy of electron

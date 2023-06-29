@@ -1,0 +1,41 @@
+07-Dec-2000
+     Installed the following atomic data files (from GALAH)
+       COB/  IV/18oct00/   /V/18oct00/       /VI/18oct00
+             VII/18oct00/  /VIII/18oct00/    /IX/18oct00
+       MAN/  IV/18oct00/   /V/18oct00/       /VI/18oct00
+             VII/18oct00/
+     Installed the following atomic files from LIMEY (originally from GALAH)
+       CARB/ II/2jun99/
+       FE/   VI/18oct00/   /VII/18oct00/
+
+     Installed chg_exch_data.7dec00
+        Contains updated charge exchange reaction rates.
+
+28-Nov-2000
+     Installed the following atomic data files (newly created on GALAH)
+       NICK/  II/18oct00/  /III/18oct00/
+
+26-Nov-2000
+     Installed the following atomic data files (newly created on GALAH)
+       MAN/   II/18oct00/  /III/18oct00/
+       COB/   II/18oct00/  /III/18oct00/
+
+24-Nov-2000
+     Installed the following atomic data directories from LIMEY.
+       SUL/   II/3oct00/  /III/3oct00/   /IV/3oct00/  
+       TIT/   II/3oct00/  /III/3oct00/   /IV/3oct00/
+       CHRO/  II/3oct00/  /III/3oct00/   /IV/3oct00/      /V/3oct00/
+
+21-Nov-2000
+     Installed the following files in the misc directory:
+        bs_hhe.dat:                  Butler-Schoberg tables
+        ds_strk.dat:
+        hei_ir_strk.dat:
+        lemke_hi.dat:
+        strk_list_bs_21nov00.dat:    List of all available ines for CMFGEN.
+                                     Uses Butler-Schoberg data for H when 
+                                     avaialable
+        strk_list_lemke_21nov00.dat: List of all available lines for CMFGEN
+                                     Uses Lemke data for H when available.
+
+ THIS FILE IS NOT UPTODATE

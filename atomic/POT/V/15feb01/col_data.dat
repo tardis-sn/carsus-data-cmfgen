@@ -1,0 +1,23 @@
+
+******************************************************************************
+
+       Colisional data for K V
+       From Mendoza, IAU Symposium  103
+
+******************************************************************************
+
+8                                       !Number of transitions
+1                                       !Number of T values OMEGA tabulated at
+1.0                                     !Scaling factor for OMEGA (non-FILE values).
+0.1                                     !Value for OMEGA if f=0
+
+    Transition\T                        1.0
+
+3p3_4So[3/2]-3p3_2Do[3/2]              0.570
+3p3_4So[3/2]-3p3_2Do[5/2]              0.854
+3p3_4So[3/2]-3p3_2Po[1/2]              0.212
+3p3_4So[3/2]-3p3_2Po[3/2]              0.423
+3p3_2Do[3/2]-3p3_2Po[1/2]              1.01
+3p3_2Do[3/2]-3p3_2Po[3/2]              1.24
+3p3_2Do[5/2]-3p3_2Po[1/2]              0.865
+3p3_2Do[5/2]-3p3_2Po[3/2]              2.50

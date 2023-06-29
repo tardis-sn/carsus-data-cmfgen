@@ -1,0 +1,15 @@
+
+******************************************************************************
+
+       Colisional data for Ne II
+       Reference: Saraph, H. E., Tulle, J. A., 1994, A&AS, 107, 29
+
+******************************************************************************
+
+1                                       !Number of transitions
+9                                       !Number of T values OMEGA tabulated at
+1.0                                     !Scaling factor for OMEGA (non-FILE values).
+0.1                                     !Value for OMEGA if f=0
+
+    Transition\T                      0.1    0.178   0.316   0.562   1.000   1.778  3.162    5.623  10.00
+2s2_2p5_2Po[3/2]-2s2_2p5_2Po[1/2]    0.272   0.273   0.274   0.278   0.283   0.294   0.311   0.338  0.377

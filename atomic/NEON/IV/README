@@ -1,0 +1,12 @@
+26/Jan/14 - Fixed incorrect name in collisional data file.
+
+Use phot_nosm
+    NB: (phot_sm_3000.dat has smoothed opacity data
+            Cross-sections for level with no opacity data also differs from phot_nosm)
+    NB: Bug fix (16-Aug-2010) for 2s2_2p2(3Pe)10h_4Go state (had wrong phot ID).
+             Ony important if using almost all the levels.
+     
+6/may/02
+      Poor super level assignments for NeIV
+      1dec99/f_to_s_46.dat edited (do not use)
+      Use 1dec99/f_to_s_53.dat insted.

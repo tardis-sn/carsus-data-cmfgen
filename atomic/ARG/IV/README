@@ -1,0 +1,11 @@
+1dec99
+       f values and photoioizationcross-section are from the oapcity
+       project.  NIST energy levels inserted, and LS coupling assumed
+       to split the transition vales.
+       The oscilator strengths have been update by Kurucz values,
+         where available.
+
+       The f_to_s_?.dat files have been created using WR_F_TO_S.
+       They have not been checked, and do not necassarily provide
+       the optimum choice of super levels.
+~        

@@ -1,0 +1,7 @@
+Line Broadening
+  For hydrogen 3 set of line-broadening functions are currently implemented.
+     RECOMZ -- Broadening theory due to Griem.
+                 Generally okay except for n to n+1 transitions.
+     Lemke  -- Problem with IR transitions.
+                 Very similar to BS when both are available.
+     BS_HHE  - From Keith Butler and Schoningberg

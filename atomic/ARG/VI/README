@@ -1,0 +1,15 @@
+15feb01
+       f values and photoioizationcross-section are from the oapcity
+       project.  NIST energy levels inserted, and LS coupling assumed
+       to split the transition vales.
+
+       Collissional and radiative data for the 3s2_3p_2Po-3s_3p2_4Pe
+       array is of poor quality.
+
+       The f_to_s_?.dat files have been created using WR_F_TO_S.
+       They have not been checked, and do not necassarily provide
+       the optimum choice of super levels.
+
+       The phot_sm_500.dat file was updated 29-Jan-03 with an improved
+          frequency grid.
+~        

@@ -1,0 +1,23 @@
+
+******************************************************************************
+
+       Energy levels and statistical weights for Fe IV
+
+>> Data is from Keith Butler
+>>   Maximum energy included = Ionization energy =>   442000.
+>>   Put into John`s format by create.f
+>> Data is from NIST
+>>   Maximum energy included = Ionization energy =>   442000.
+>>   Put into John`s format by create.f
+>> Data from Keith Butler rewritten with NIST energies
+>>   266 energies from NIST included
+
+  Config           Statistical   Energy    Ionization
+                     Weight      (cm-1)    Energy(eV)
+******************************************************************************
+
+24-May-1996                             !Date
+280                                     !Number of energy levels
+442000.                                 !Ionization energy
+4.0                                     !Screened nuclear charge
+8669                                    !Number of transitions

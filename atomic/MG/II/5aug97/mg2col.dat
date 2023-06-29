@@ -1,0 +1,37 @@
+**************************************************************************************************************************
+**************************************************************************************************************************
+
+Collision strengths (Omega[i,k]) for Mg2. The collisional excitation rate
+is defined by
+
+           C(i,k)=8.63D-08 OMEGA(i,k) EXP(-U0) / Gi /sqrt(T_4).
+
+We also use the same definition for the ionization collision strength.
+For ionization of low lying levels we expect OMEGA(i,i) to be propotional to T.
+
+Collision rates for Mg 2:
+            3s-3p from tabulation by  Mendoza (IAU 130)
+            Others are thrshold cross-sections from Blaha (A &A, 1972, 16, 437). 
+            Note the 3s-np transitions have low oscilator strengths, and
+               hence the Van-Regemorter formaula are quite inacurate.
+                
+**************************************************************************************************************************
+**************************************************************************************************************************
+
+10 				!Number of transitions
+4                               !Number of T values OMEGA tabulated at
+1.0				!Scaling factor for OMEGA (non-FILE values).
+0.1				!Value for OMEGA if f=0
+                                                  
+Transition\T            0.50      1.0      1.5     2.0
+
+3s2Se-3p2Po             15.6      16.5     17.2    17.7
+3s2Se-4p2Po             0.25       0.25     0.25    0.25
+3s2Se-5p2Po             0.4        0.4      0.4     0.4
+3s2Se-4s2Se             0.24       0.24     0.24    0.24
+3s2Se-5s2Se             0.02       0.02     0.02    0.02
+3s2Se-3d2De             2.1        2.1      2.1     2.1
+3p2Po-3d2De             16.3       16.3     16.3    16.3
+3p2Po-4s2Se              1.9        1.9      1.9     1.9
+3p2Po-4p2Po              1.7        1.7      1.7     1.7
+3p2Po-4d2De              1.3        1.3      1.3     1.3

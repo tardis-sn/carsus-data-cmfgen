@@ -1,0 +1,205 @@
+*******************************************************************************
+ 
+   Photoionization cross sections for Hydrogen. These are computed
+   exactly. Same format as other data file.s
+C
+	          2 - Hydrogenic: separate l states (up to z)
+	                               [index, n]
+		  1 - Parameterized power law (Hildago etc).
+			               [ alpha(nu_o), beta, ]
+  This version, created with new data format, should contain same data
+  as earlier verisons.
+ 
+*******************************************************************************
+ 
+05-Mar-1996                            !Date
+ 30                                    !Number of energy levels
+  1                                    !Number of photoionization routes
+1.0                                    !Screened nuclear charge
+____                                   !Final state in ion
+0.0D0                                  !Excitation energy of final state
+1.0D0                                  !Statistical weight of ion
+0.0                                    !Sigma used for Gaussian smoothing (km/s)
+Megabarns                              !Cross-section unit
+False                                  !Split J levels
+ 60                                    !Total number of data pairs
+ 
+1___                                   !Configuration name
+3                                      !Type of cross-section
+2                                      !Number of cross-section points
+1.0
+1.0
+ 
+2___                                   !Configuration name
+3                                      !Type of cross-section
+2                                      !Number of cross-section points
+ 1.000
+ 2.000
+ 
+3___                                   !Configuration name
+3                                      !Type of cross-section
+2                                      !Number of cross-section points
+ 1.000
+ 3.000
+ 
+4___                                   !Configuration name
+3                                      !Type of cross-section
+2                                      !Number of cross-section points
+ 1.000
+ 4.000
+ 
+5___                                   !Configuration name
+3                                      !Type of cross-section
+2                                      !Number of cross-section points
+ 1.000
+ 5.000
+ 
+6___                                   !Configuration name
+3                                      !Type of cross-section
+2                                      !Number of cross-section points
+ 1.000
+ 6.000
+ 
+7___                                   !Configuration name
+3                                      !Type of cross-section
+2                                      !Number of cross-section points
+ 1.000
+ 7.000
+ 
+8___                                   !Configuration name
+3                                      !Type of cross-section
+2                                      !Number of cross-section points
+ 1.000
+ 8.000
+ 
+9___                                   !Configuration name
+3                                      !Type of cross-section
+2                                      !Number of cross-section points
+ 1.000
+ 9.000
+ 
+10___                                  !Configuration name
+3                                      !Type of cross-section
+2                                      !Number of cross-section points
+ 1.000
+10.000
+ 
+11___                                  !Configuration name
+3                                      !Type of cross-section
+2                                      !Number of cross-section points
+ 1.000
+11.000
+ 
+12___                                  !Configuration name
+3                                      !Type of cross-section
+2                                      !Number of cross-section points
+ 1.000
+12.000
+ 
+13___                                  !Configuration name
+3                                      !Type of cross-section
+2                                      !Number of cross-section points
+ 1.000
+1.3000E+01
+ 
+14___                                  !Configuration name
+3                                      !Type of cross-section
+2                                      !Number of cross-section points
+ 1.000
+1.4000E+01
+ 
+15___                                  !Configuration name
+3                                      !Type of cross-section
+2                                      !Number of cross-section points
+ 1.000
+1.5000E+01
+ 
+16___                                  !Configuration name
+3                                      !Type of cross-section
+2                                      !Number of cross-section points
+ 1.000
+1.6000E+01
+ 
+17___                                  !Configuration name
+3                                      !Type of cross-section
+2                                      !Number of cross-section points
+ 1.000
+1.7000E+01
+ 
+18___                                  !Configuration name
+3                                      !Type of cross-section
+2                                      !Number of cross-section points
+ 1.000
+1.8000E+01
+ 
+19___                                  !Configuration name
+3                                      !Type of cross-section
+2                                      !Number of cross-section points
+ 1.000
+1.9000E+01
+ 
+20___                                  !Configuration name
+3                                      !Type of cross-section
+2                                      !Number of cross-section points
+ 1.000
+2.0000E+01
+ 
+21___                                  !Configuration name
+3                                      !Type of cross-section
+2                                      !Number of cross-section points
+ 1.000
+2.1000E+01
+ 
+22___                                  !Configuration name
+3                                      !Type of cross-section
+2                                      !Number of cross-section points
+ 1.000
+2.2000E+01
+ 
+23___                                  !Configuration name
+3                                      !Type of cross-section
+2                                      !Number of cross-section points
+ 1.000
+2.3000E+01
+ 
+24___                                  !Configuration name
+3                                      !Type of cross-section
+2                                      !Number of cross-section points
+ 1.000
+2.4000E+01
+ 
+25___                                  !Configuration name
+3                                      !Type of cross-section
+2                                      !Number of cross-section points
+ 1.000
+2.5000E+01
+ 
+26___                                  !Configuration name
+3                                      !Type of cross-section
+2                                      !Number of cross-section points
+ 1.000
+2.6000E+01
+ 
+27___                                  !Configuration name
+3                                      !Type of cross-section
+2                                      !Number of cross-section points
+ 1.000
+2.7000E+01
+ 
+28___                                  !Configuration name
+3                                      !Type of cross-section
+2                                      !Number of cross-section points
+ 1.000
+2.8000E+01
+ 
+29___                                  !Configuration name
+3                                      !Type of cross-section
+2                                      !Number of cross-section points
+ 1.000
+2.9000E+01
+ 
+30___                                  !Configuration name
+3                                      !Type of cross-section
+2                                      !Number of cross-section points
+ 1.000
+3.0000E+01

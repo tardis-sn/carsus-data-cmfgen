@@ -1,0 +1,28 @@
+**************************************************************************************************************************
+**************************************************************************************************************************
+
+Collision strengths (Omega[i,k]) for S IV. The collisional excitation rate
+is defined by
+
+           C(i,k)=8.63D-08 OMEGA(i,k) EXP(-U0) / Gi /sqrt(T_4).
+
+We also use the same definition for the ionization collision strength.
+For ionization of low lying levels we expect OMEGA(i,i) to be propotional to T.
+
+Saraph & Storey 1999 A&AS 134, 369 (f-s) + Mendoza (rest)
+
+**************************************************************************************************************************
+**************************************************************************************************************************
+
+6 				!Number of transitions
+9                               !Number of T values OMEGA tabulated at
+1.0				!Scaling factor for OMEGA (non-FILE values).
+0.1 				!Value for OMEGA if f=0
+
+    Transition\T            0.2        0.5        1.0        2.0        5.0       10.0       20.0       50.0      100.0
+3s23p2Po[1/2]-3s23p2Po[3/2]  7.11      8.10       8.55       8.28       7.0       5.3        4.          3.        2.
+3s23p2Po[1/2]-3s3p24Pe[1/2]  0.55      0.53       0.51       0.45       0.4       0.3        0.2        0.1        0.1
+3s23p2Po[1/2]-3s3p24Pe[3/2]  1.00      0.93       0.87       0.80       0.7       0.6        0.5        0.4        0.3
+3s23p2Po[3/2]-3s3p24Pe[1/2]  0.80      0.70       0.66       0.60       0.5       0.4        0.3        0.2        0.1
+3s23p2Po[3/2]-3s3p24Pe[3/2]  2.0       1.7        1.47       1.34       1.2       1.1        1.0        0.9        0.8
+3s23p2Po[3/2]-3s3p24Pe[5/2]  3.0       2.75       2.53       2.3        2.0       1.7        1.5        1.2        1.0 

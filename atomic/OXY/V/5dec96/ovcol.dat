@@ -1,0 +1,62 @@
+**************************************************************************************************************************
+**************************************************************************************************************************
+
+ Collision strengths (Omega[i,k]) for OV. The collisional excitation rate
+ is defined by
+
+           C(i,k)=8.63D-08 OMEGA(i,k) EXP(-U0) / Gi /sqrt(T_4).
+
+ We also use the same definition for the ionization collision strength.
+ For ionization of low lying levels we expect OMEGA(i,i) to be propotional to T.
+
+ References:  (i) Berrington, Burke, Dufton and Kingston, 1985, ATANDT, 
+                  33, 195-216. 
+             (ii) Dufton and Berrington,1978, A & A,62,111-120
+
+ Collisional data for lowest 6 levels of C~III (Singlets and Triplets).
+ Data is a fit to the values given by Berrington, Burke, Dufton and
+ Kingston, 1985, ATANDT, 33, 195-216. Fit was for T from 30,00K to
+ 1,000,000K. As fit is smooth, extrapolation should be okay outside
+ this range. Fits are generally better than 1%, except at highest
+ temperature where the fit may be in error by at most 10%.
+
+ Collsional ionization rates are suspect!
+
+ [Reference] Collision rates for six lowest terms of O\,{v} are from \cite{BBD85_col}.
+
+**************************************************************************************************************************
+**************************************************************************************************************************
+
+21 				!Number of transitions
+9                               !Number of T values OMEGA tabulated at
+1.0				!Scaling factor for OMEGA (non-FILE values).
+0.01				!Value for OMEGA if f=0
+                                                                      
+Transition\T             0.2       0.5        1.0       2.0         5.0        10.0      20.0       50.0      100.0
+
+2s2s1Se-      I      5.95E-04   1.49E-03   2.98E-03   5.95E-03   1.49E-02   2.98E-02   5.95E-02   1.49E-01   2.98E-01
+2s2s1Se-2s2p3Po        0.7665     0.7337     0.6960     0.6444     0.5527     0.4685     0.3785     0.2648     0.1920
+2s2s1Se-2s2p1Po        2.6015     2.6219     2.6478     2.6884     2.7795     2.8948     3.0756     3.4809     3.9944
+2s2s1Se-2p2p3Pe      3.12E-02   2.30E-02   1.83E-02   1.45E-02   1.07E-02   8.52E-03   6.77E-03   4.99E-03   3.96E-03
+2s2s1Se-2p2p1De        0.1283     0.1256     0.1231     0.1200     0.1148     0.1101     0.1046     0.0961     0.0888
+2s2s1Se-2p2p1Se      1.83E-02   1.82E-02   1.81E-02   1.80E-02   1.79E-02   1.78E-02   1.77E-02   1.76E-02   1.75E-02
+
+2s2p3Po-      I      6.37E-03   1.59E-02   3.18E-02   6.37E-02   1.59E-01   3.18E-01   6.37E-01   1.59E+00   3.18E+00
+2s2p3Po-2s2p1Po        1.9742     1.9148     1.8376     1.7192     1.4820     1.2425     0.9738     0.6334     0.4257
+2s2p3Po-2p2p3Pe       12.5162    12.6166    12.7407    12.9309    13.3462    13.8594    14.6463    16.3645    18.4874
+2s2p3Po-2p2p1De        0.4862     0.4823     0.4771     0.4685     0.4487     0.4239     0.3878     0.3207     0.2589
+2s2p3Po-2p2p1Se      4.76E-02   4.75E-02   4.73E-02   4.69E-02   4.58E-02   4.41E-02   4.09E-02   3.35E-02   2.56E-02
+
+2s2p1Po-      I      2.04E-03   5.10E-03   1.02E-02   2.04E-02   5.10E-02   1.02E-01   2.04E-01   5.10E-01   1.02E+00
+2s2p1Po-2p2p3Pe        2.1851     1.6270     1.2715     0.9772     0.6760     0.5054     0.3750     0.2505     0.1838
+2s2p1Po-2p2p1De        7.3679     7.4539     7.5543     7.7007     8.0021     8.3540     8.8673     9.9238    11.1571
+2s2p1Po-2p2p1Se        2.3805     2.3940     2.4116     2.4401     2.5064     2.5933     2.7338     3.0605     3.4892
+
+2p2p3Pe-      I      4.43E-03   1.11E-02   2.22E-02   4.43E-02   1.11E-01   2.22E-01   4.43E-01   1.11E+00   2.22E+00
+2p2p3Pe-2p2p1De        1.8007     1.7854     1.7642     1.7286     1.6450     1.5395     1.3857     1.1068     0.8613
+2p2p3Pe-2p2p1Se        0.1777     0.1772     0.1762     0.1743     0.1689     0.1607     0.1466     0.1162     0.0866
+
+2p2p1De-      I      2.59E-03   6.46E-03   1.29E-02   2.59E-02   6.46E-02   1.29E-01   2.59E-01   6.46E-01   1.29E+00
+2p2p1De-2p2p1Se        0.2972     0.2978     0.2985     0.2998     0.3028     0.3069     0.3137     0.3302     0.3525
+
+2p2p1Se-      I      6.07E-04   1.52E-03   3.03E-03   6.07E-03   1.52E-02   3.03E-02   6.07E-02   1.52E-01   3.03E-01

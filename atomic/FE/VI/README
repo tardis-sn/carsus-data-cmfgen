@@ -1,0 +1,37 @@
+18oct00/  
+   Preferred data set. Data set is much more extenisve than earlier
+   data sets. In grid calculations, all levels are not needed.
+   However, at some Teff's (e.g., Teff = 34000K) these high levels
+   (which don't necessarily have observed energies) may need to
+   be included.
+
+  Oscillator strengths are from Kurucz.
+  NIST energy levels inserted.
+  Photoionization data is from the OPACITY project, where available.
+  Collisional data is from Pradhan's group.
+  Forbiden transitions are included.
+
+  Preferred data files are:
+    col_data.dat
+    Fevi_osc.dat
+    phot_sm_3000.dat
+
+  The file, phot_hydro.dat, is not (generally) to be used.
+  It contains crude photoioization cross-section which 
+  can be compared, in model calculatons, against the
+  more accurate values given in phot_sm_2000.dat.
+
+  The f_to_s_?.dat files have been created using WR_F_TO_S.
+  They have not been checked, and do not necassarily provide
+  the optimum choice of super levels.
+        
+  NB: In general there is little effective difference with
+      small data set for the levels in common. A few misidentified
+      levels may have been corrected.
+
+24may96/
+
+
+23oct95/  
+
+

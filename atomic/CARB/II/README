@@ -1,0 +1,6 @@
+Data set for 30oct12 is similar to that of 5sep07.
+New collision rates are available for more levels.
+NIST f values used when available. Some big changes for
+       2s_2p2_2Se-2p3_2Po
+and   2s2_3d_2De-2p3_2Po
+Also fixed problem with 8d-8f f value (much too large).

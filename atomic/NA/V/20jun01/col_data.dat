@@ -1,0 +1,23 @@
+
+******************************************************************************
+
+       Collisional data for NaV
+       From Mendoza (PN Sympsium)
+
+******************************************************************************
+
+8                                       !Number of transitions
+1                                       !Number of T values OMEGA tabulated at
+1.0                                     !Scaling factor for OMEGA (non-FILE values).
+0.1                                     !Value for OMEGA if f=0
+
+    Transition\T                        1.0  
+
+2s2_2p3_4So[3/2]-2s2_2p3_2Do[5/2]       0.551D0
+2s2_2p3_4So[3/2]-2s2_2p3_2Do[3/2]       0.368D0
+2s2_2p3_4So[3/2]-2s2_2p3_2Po[3/2]       0.239D0
+2s2_2p3_4So[3/2]-2s2_2p3_2Po[1/2]       0.120D0
+2s2_2p3_2Do[5/2]-2s2_2p3_2Po[3/2]       0.502D0
+2s2_2p3_2Do[5/2]-2s2_2p3_2Po[1/2]       0.201D0
+2s2_2p3_2Do[3/2]-2s2_2p3_2Po[3/2]       0.279D0
+2s2_2p3_2Do[3/2]-2s2_2p3_2Po[1/2]       0.190D0

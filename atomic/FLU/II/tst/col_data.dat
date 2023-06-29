@@ -1,0 +1,19 @@
+
+******************************************************************************
+
+       Colisional data for F II
+       Values quoted are for Ne III
+
+******************************************************************************
+
+3                                       !Number of transitions
+4                                       !Number of T values OMEGA tabulated at
+1.0                                     !Scaling factor for OMEGA (non-FILE values).
+0.1                                     !Value for OMEGA if f=0
+
+    Transition\T                  0.5        1.0        1.5      2.0        
+
+2s2_2p4_3Pe -2s2_2p4_1De          1.35       1.34       1.33     1.32
+2s2_2p4_3Pe -2s2_2p4_1Se          0.152       0.151      0.152    0.157
+2s2_2p4_1De -2s2_2p4_1Se          0.220       0.236      0.262    0.284
+

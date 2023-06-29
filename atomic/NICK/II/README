@@ -1,0 +1,23 @@
+27aug12
+       As for 18oct00 but forbiddem line data from Quintet included
+          in NkII data files.
+ 
+       Original crude set name phot_data_crude.
+       New hotoionization cross-sections for Ni\,{sc ii} are from \citep{NB01_NiII}.
+       There are some issues -- 3 states -  the ground state, 3d8(3F)4d_2Ge, 
+       3d8(3F)6s_2Fe) dominate the recombination rates above 20,000 K.
+
+18oct00
+       Only limited data for Nickel is available. The oscillator values 
+       presented here are take from extensive calculations of
+       Kurucz.
+       
+       NIST energy levels have been used where available.
+
+       Photoionization cross-sections are very crude hydrogenic vales based
+       on nef. These need to be updated. 
+
+       The f_to_s_?.dat files have been created using WR_F_TO_S.
+       They have not been checked, and do not necassarily provide
+       the optimum choice of super levels.
+~        
