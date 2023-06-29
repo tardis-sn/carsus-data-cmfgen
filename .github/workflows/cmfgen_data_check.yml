@@ -46,12 +46,12 @@ jobs:
 
       - name: Commit files to git
         id: commit_changes
-        if: ${{ steps.compare.outputs.change == 1 }}
+        #if: ${{ steps.compare.outputs.change == 1 }}
         run: |
           git commit -m "New dataset added"
 
       - name: Push changes
-        if: ${{ steps.compare.outputs.change == 1 }}
+        #if: ${{ steps.compare.outputs.change == 1 }}
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
