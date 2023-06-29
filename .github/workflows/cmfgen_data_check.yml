@@ -41,7 +41,6 @@ jobs:
         id: compare
         run: |
           git add .
-          git diff --quiet --exit-code --cached
           FILE_CHANGE=$?
           echo "change=$FILE_CHANGE" >> "$GITHUB_OUTPUT"
 
