@@ -2,11 +2,11 @@ name: Check CMFGEN data update workflow
 
 on:
   schedule:
-    - cron: '0 0 * * 5'  #runs on every Friday midnight
+    - cron: '0 0 * * 0'  #runs on every Sunday midnight
   workflow_dispatch:
   
 env:
-  SOURCE_URL: https://sites.pitt.edu/~hillier/cmfgen_files/atomic_data_21jun23.tar.gz #updated url
+  SOURCE_URL: https://sites.pitt.edu/~hillier/cmfgen_files/atomic_data_21jun23.tar.gz
 
 jobs:
   build:
@@ -39,21 +39,20 @@ jobs:
           
       - name: Compare changes
         id: compare
+        continue-on-error: true
         run: |
           git add .
           git diff --quiet --exit-code --cached
-          FILE_CHANGE=$?
-          echo "change=$FILE_CHANGE" >> "$GITHUB_OUTPUT"
 
       - name: Commit files to git
         id: commit_changes
-        if: ${{ steps.compare.outputs.change == 1 }}
+        if: ${{ steps.compare.outcome == 'failure' }}
         run: |
           git commit -m "New dataset added"
 
       - name: Push changes
         id: Push_changes
-        if: ${{ steps.compare.outputs.change == 1 }}
+        if: ${{ steps.compare.outcome == 'failure' }}
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
