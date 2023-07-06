@@ -1,0 +1,19 @@
+ 
+******************************************************************************
+ 
+       Colisional data for Cl IV
+       From Menodza
+       Altered: 22-Jan-2014 -- bad level names (3s2 removed).
+
+******************************************************************************
+ 
+3                                       !Number of transitions
+4                                       !Number of T values OMEGA tabulated at
+1.0                                     !Scaling factor for OMEGA (non-FILE values).
+0.1                                     !Value for OMEGA if f=0
+ 
+Transition\T                   0.5     1.0     1.5    2.0 
+
+3p2_3Pe-3p2_1De              5.10    5.42    5.88   6.19
+3p2_1De-3p2_1Se              2.04    2.27    2.32   2.30
+3p2_1De-3p2_1Se              0.935   1.39    1.73   1.92

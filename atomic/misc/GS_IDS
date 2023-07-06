@@ -1,0 +1,33 @@
+CI    2s2_2p2_3Pe
+C2    3s2_3p_2Po
+CIII  2s21Se/2s2_1Se
+
+NI    2s2_2p3_4So
+N2    2s2_2p2_3Pe
+NIII  2s2_2p_2Po
+
+OI    2s2_2p4_3Pe
+O2    2s2_2p3_4So
+OIII  2s2_2p2_3Pe
+
+NeI   2s2_2p6_1Se
+Ne2   2s2_2p5_2Po
+NeIII 2s2_2p4_3Pe
+
+NaI   3s2Se/3s_2Se
+MgI   3s21Se/3s2_1Se
+
+SkI   3s2_3p2_3Pe
+Sk2   3s2_3p_2Po
+SkIII 3s21Se/3s2_1Se
+
+SI    3s2_3p4_3Pe
+S2    3s2_3p3_4So
+SIII  3s2_3p2_3Pe
+
+CaI   4s21Se/4s2_1Se
+Ca2   3p6_4s_2Se
+
+FeI   3d6_4s2_a5De
+Fe2   3d6(5D)4sa6De/3d6(5D)4s_a6De
+FeIII 3d6_5De 

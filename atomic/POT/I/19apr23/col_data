@@ -1,0 +1,27 @@
+
+Collision strengths (Omega[i,k]) for Mg I. The collisional excitation rate
+is defined by
+
+           C(i,k)=8.63D-08 OMEGA(i,k) EXP(-U0) / Gi /sqrt(T_4).
+
+We also use the same definition for the ionization collision strength.
+For ionization of low lying levels we expect OMEGA(i,i) to be propotional to T.
+
+Collision rate guessed: Need to be set as f non-zero and small for these transitions
+Computed using the online Los Almos Atomic data code.
+
+**************************************************************************************************************************
+**************************************************************************************************************************
+
+6                               !Number of transitions
+7                               !Number of T values OMEGA tabulated at
+1.0                             !Scaling factor for OMEGA (non-FILE values).
+0.1                             !Value for OMEGA if f=0
+
+Transition\T                               0.100       0.200       0.500       1.000       2.000       5.000      10.000
+3p6_4s_2Se[1/2] - 3p6_4p_2Po[3/2]          3.799       4.812       8.401      14.672      26.107      51.370      75.382
+3p6_4s_2Se[1/2] - 3p6_5s_2Se[1/2]          1.543       1.920       2.423       2.871       3.600       4.988       5.877
+3p6_4s_2Se[1/2] - 3p6_3d_2De[5/2]          5.978       7.357       8.681       8.929       8.820       8.987       9.617
+3p6_4s_2Se[1/2] - 3p6_4d_2De[5/2]          3.108       3.772       4.297       4.098       3.506       2.656       2.225
+3p6_4s_2Se[1/2] - 3p6_6s_2Se[1/2]          0.720       0.904       1.094       1.150       1.202       1.353       1.439
+3p6_4s_2Se[1/2] - 3p6_4f_2Fo[7/2]          1.184       1.639       2.067       1.984       1.620       1.085       0.805

@@ -1,0 +1,11 @@
+!
+! Transition                      Lam(acc)    Air or Vac   Lam(file) 
+!
+
+SiII(3s_3p2_4Pe[1/2]-3p3_4So)    1246.740      VAC        1249.723
+SiII(3s_3p2_4Pe[3/2]-3p3_4So)    1248.426      VAC        1251.417
+SiII(3s_3p2_4Pe[5/2]-3p3_4So)    1251.116      VAC        1254.169
+SkIV(6z2Z-5f2Fo[3.5])            4631.24       AIR        4629.849      
+SkIV(6z2Z-5f2Fo[2.5])            4631.24       AIR        4629.849      
+SkIV(6z2Z-5z2Z)                  4654.32       AIR        4655.491
+HeI(1s5d1De-1s2p1Po)             4387.930      AIR        4388.15     

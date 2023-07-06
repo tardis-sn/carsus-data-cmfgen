@@ -1,0 +1,16 @@
+
+******************************************************************************
+
+       Colisional data for Cl VI
+       Guess based on data for SV and Ar VII
+
+******************************************************************************
+
+0                                       !Number of transitions
+1                                       !Number of T values OMEGA tabulated at
+1.0                                     !Scaling factor for OMEGA (non-FILE values).
+0.1                                     !Value for OMEGA if f=0
+
+    Transition\T            1.0
+
+3s2_1Se-3s_3p_3Po          0.7

@@ -14,10 +14,11 @@
            Oscillator strengths scaled to conserve (g*f)/(h*nu)
     Data from NIST: Split energy levels inserted   
          gf values split using REWRITE_OSC_V2
-    Data from Mendoza.
-         Intercombination transition inserted
-    Data from Kurucz
-         Kurucz gf values inserted where possible (30 matching levels)
+
+ [Reference] ArIV oscillayor strengths are from the Opacity Project
+ [Reference] K Butler, C Mendoza & CJ Zeippen (unpublished)
+ [Reference] Mendoza.  Intercombination transition inserted
+ [Reference] Kurucz gf values inserted where possible (30 matching levels)
 
 ********************************************************************************
 

@@ -1,0 +1,16 @@
+************************************************************************************************************************
+
+                 Energy Levels and statistical weights for He
+		 Lambdas (>2000A) for transitions are in air.
+	         Data is from NIST.
+
+
+                  g        E(cm^-1)    10^15 Hz     eV       Lam(A)       ID      ARAD         C4          C6
+************************************************************************************************************************
+
+17-Oct-2000                                      !Format date
+15-Jul-2015 18:24:20                             !Date
+237                                              !Number of energy levels
+198310.6700                                      !Ionization energy
+1.0                                              !Screened nuclear charge
+3857                                             !Number of transitions

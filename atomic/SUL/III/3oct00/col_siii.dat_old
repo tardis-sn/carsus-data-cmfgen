@@ -1,0 +1,16 @@
+       Colisional data for S III
+       S.S. Tayal, 1997, ApJ, 481, 550
+
+******************************************************************************
+
+5                                       !Number of transitions
+8                                       !Number of T values OMEGA tabulated at
+1.0                                     !Scaling factor for OMEGA (non-FILE values).
+0.1                                     !Value for OMEGA if f=0
+
+    Transition\T                    0.5    0.8      1.0        2.0        3.0      4.0      6.0     10.0
+3s2_3p2_3Pe-3s2_3p2_1De            7.18    7.21     7.22      7.37       7.37     7.26      6.98    5.96
+3s2_3p2_3Pe-3s2_3p2_1Se            1.29    1.34     1.36      1.40       1.43     1.44      1.40    1.24
+3s2_3p2_3Pe-3s_3p3_5Se             2.74    3.09     3.18      3.32       3.35     3.30      3.12    2.77
+3s2_3p2_1De-3s2_3p2_1Se            1.41    1.45     1.49      1.68       1.79     1.85      1.88    1.80
+3s2_3p2_1De-3s_3p3_5Se             0.049   0.049    0.049     0.049      0.049    0.051     0.059   0.10

@@ -2,9 +2,12 @@
 ******************************************************************************
 
        Collisional data for Na VII
-       This is the data for NeVI from Zhang, Graziani, Pradhan (1994, A&A, 283, 319)
-       Values for Na VII are possibly 50% lower (based on Ne VI and Mg VII)
-       Bug fix (02-Dec-2015): 3s2_2p_2Po --> 2s2_2p_2Po (one transition)
+
+ [Reference]  Collisional data for Na VII
+ [Reference]  This is the data for NeVI from Zhang, Graziani, Pradhan (1994, A&A, 283, 319) \cite{ZGP94_Blike_col}
+ [Reference]     Values for Na VII are possibly 50% lower (based on Ne VI and Mg VII)
+
+  Bug fix (02-Dec-2015): 3s2_2p_2Po --> 2s2_2p_2Po (one transition)
 
 ******************************************************************************
 

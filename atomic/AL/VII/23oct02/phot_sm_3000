@@ -11,8 +11,11 @@
          -----------------------------------
 
            1 - Seaton formula fit [sigma_o,alpha,beta]                  
-
           20 - Opacity Project: smoothed [number of data pairs]         
+
+ [Reference] [Reference] Al\,{\sc vii} photoionization cross-sections are from the opacity project
+ [Reference] \citep{Sea87_op}, and were retrieved from Topbase \citep{Topbase93}.
+ [Reference] VM Burke & DJ Lennon (unpublished). Supplemented by hydrogenic values for high (l,n) states.
  
 ******************************************************************************
  

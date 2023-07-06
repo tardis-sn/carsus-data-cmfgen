@@ -1,0 +1,398 @@
+    1   2s2_2p4_3Pe[2]                     3    P    e
+    2   2s2_2p4_3Pe[1]                     3    P    e
+    3   2s2_2p4_3Pe[0]                     3    P    e
+    4   2s2_2p4_1De[2]                     1    D    e
+    5   2s2_2p4_1Se[0]                     1    S    e
+    6   2s2_2p3(4So)3s_5So[2]              5    S    o
+    7   2s2_2p3(4So)3s_3So[1]              3    S    o
+    8   2s2_2p3(4So)3p_5Pe[1]              5    P    e
+    9   2s2_2p3(4So)3p_5Pe[2]              5    P    e
+   10   2s2_2p3(4So)3p_5Pe[3]              5    P    e
+   11   2s2_2p3(4So)3p_3Pe[1]              3    P    e
+   12   2s2_2p3(4So)3p_3Pe[2]              3    P    e
+   13   2s2_2p3(4So)3p_3Pe[0]              3    P    e
+   14   2s2_2p3(4So)4s_5So[2]              5    S    o
+   15   2s2_2p3(4So)4s_3So[1]              3    S    o
+   16   2s2_2p3(4So)3d_5Do[4]              5    D    o
+   17   2s2_2p3(4So)3d_5Do[3]              5    D    o
+   18   2s2_2p3(4So)3d_5Do[2]              5    D    o
+   19   2s2_2p3(4So)3d_5Do[1]              5    D    o
+   20   2s2_2p3(4So)3d_5Do[0]              5    D    o
+   21   2s2_2p3(4So)3d_3Do[1]              3    D    o
+   22   2s2_2p3(4So)3d_3Do[2]              3    D    o
+   23   2s2_2p3(4So)3d_3Do[3]              3    D    o
+   24   2s2_2p3(4So)4p_5Pe[1]              5    P    e
+   25   2s2_2p3(4So)4p_5Pe[2]              5    P    e
+   26   2s2_2p3(4So)4p_5Pe[3]              5    P    e
+   27   2s2_2p3(4So)4p_3Pe[1]              3    P    e
+   28   2s2_2p3(4So)4p_3Pe[2]              3    P    e
+   29   2s2_2p3(4So)4p_3Pe[0]              3    P    e
+   30   2s2_2p3(2Do)3s_3Do[3]              3    D    o
+   31   2s2_2p3(2Do)3s_3Do[2]              3    D    o
+   32   2s2_2p3(2Do)3s_3Do[1]              3    D    o
+   33   2s2_2p3(4So)5s_5So[2]              5    S    o
+   34   2s2_2p3(4So)5s_3So[1]              3    S    o
+   35   2s2_2p3(2Do)3s_1Do[2]              1    D    o
+   36   2s2_2p3(4So)4d_5Do[4]              5    D    o
+   37   2s2_2p3(4So)4d_5Do[3]              5    D    o
+   38   2s2_2p3(4So)4d_5Do[2]              5    D    o
+   39   2s2_2p3(4So)4d_5Do[1]              5    D    o
+   40   2s2_2p3(4So)4d_5Do[0]              5    D    o
+   41   2s2_2p3(4So)4d_3Do[3]              3    D    o
+   42   2s2_2p3(4So)4d_3Do[2]              3    D    o
+   43   2s2_2p3(4So)4d_3Do[1]              3    D    o
+   44   2s2_2p3(4So)4f_5Fe[4]              5    F    e
+   45   2s2_2p3(4So)4f_5Fe[3]              5    F    e
+   46   2s2_2p3(4So)4f_5Fe[2]              5    F    e
+   47   2s2_2p3(4So)4f_5Fe[1]              5    F    e
+   48   2s2_2p3(4So)4f_5Fe[5]              5    F    e
+   49   2s2_2p3(4So)4f_3Fe[2]              3    F    e
+   50   2s2_2p3(4So)4f_3Fe[4]              3    F    e
+   51   2s2_2p3(4So)4f_3Fe[3]              3    F    e
+   52   2s2_2p3(4So)5p_5Pe[1]              5    P    e
+   53   2s2_2p3(4So)5p_5Pe[2]              5    P    e
+   54   2s2_2p3(4So)5p_5Pe[3]              5    P    e
+   55   2s2_2p3(4So)5p_3Pe[2]              3    P    e
+   56   2s2_2p3(4So)5p_3Pe[1]              3    P    e
+   57   2s2_2p3(4So)5p_3Pe[0]              3    P    e
+   58   2s2_2p3(4So)6s_5So[2]              5    S    o
+   59   2s2_2p3(4So)6s_3So[1]              3    S    o
+   60   2s2_2p3(4So)5d_5Do[4]              5    D    o
+   61   2s2_2p3(4So)5d_5Do[3]              5    D    o
+   62   2s2_2p3(4So)5d_5Do[2]              5    D    o
+   63   2s2_2p3(4So)5d_5Do[1]              5    D    o
+   64   2s2_2p3(4So)5d_5Do[0]              5    D    o
+   65   2s2_2p3(4So)5d_3Do[3]              3    D    o
+   66   2s2_2p3(4So)5d_3Do[2]              3    D    o
+   67   2s2_2p3(4So)5d_3Do[1]              3    D    o
+   68   2s2_2p3(4So)5f_5Fe[1]              5    F    e
+   69   2s2_2p3(4So)5f_5Fe[2]              5    F    e
+   70   2s2_2p3(4So)5f_5Fe[3]              5    F    e
+   71   2s2_2p3(4So)5f_5Fe[5]              5    F    e
+   72   2s2_2p3(4So)5f_5Fe[4]              5    F    e
+   73   2s2_2p3(4So)5f_3Fe[4]              3    F    e
+   74   2s2_2p3(4So)5f_3Fe[3]              3    F    e
+   75   2s2_2p3(4So)5f_3Fe[2]              3    F    e
+   76   2s2_2p3(4So)5z_3Z                  3    Z     
+   77   2s2_2p3(4So)5z_5Z                  5    Z     
+   78   2s2_2p3(4So)6p_5Pe[1]              5    P    e
+   79   2s2_2p3(4So)6p_5Pe[2]              5    P    e
+   80   2s2_2p3(4So)6p_5Pe[3]              5    P    e
+   81   2s2_2p3(4So)6p_3Pe[2]              3    P    e
+   82   2s2_2p3(4So)6p_3Pe[1]              3    P    e
+   83   2s2_2p3(4So)6p_3Pe[0]              3    P    e
+   84   2s2_2p3(4So)7s_5So[2]              5    S    o
+   85   2s2_2p3(4So)7s_3So[1]              3    S    o
+   86   2s2_2p3(4So)6d_5Do[4]              5    D    o
+   87   2s2_2p3(4So)6d_5Do[3]              5    D    o
+   88   2s2_2p3(4So)6d_5Do[2]              5    D    o
+   89   2s2_2p3(4So)6d_5Do[1]              5    D    o
+   90   2s2_2p3(4So)6d_5Do[0]              5    D    o
+   91   2s2_2p3(4So)6d_3Do[3]              3    D    o
+   92   2s2_2p3(4So)6d_3Do[2]              3    D    o
+   93   2s2_2p3(4So)6d_3Do[1]              3    D    o
+   94   2s2_2p3(4So)6f_5Fe[1]              5    F    e
+   95   2s2_2p3(4So)6f_5Fe[2]              5    F    e
+   96   2s2_2p3(4So)6f_5Fe[4]              5    F    e
+   97   2s2_2p3(4So)6f_5Fe[3]              5    F    e
+   98   2s2_2p3(4So)6f_5Fe[5]              5    F    e
+   99   2s2_2p3(4So)6f_3Fe[4]              3    F    e
+  100   2s2_2p3(4So)6f_3Fe[3]              3    F    e
+  101   2s2_2p3(4So)6f_3Fe[2]              3    F    e
+  102   2s2_2p3(4So)6z_3Z                  3    Z     
+  103   2s2_2p3(4So)6z_5Z                  5    Z     
+  104   2s2_2p3(4So)7p_5Pe                 5    P    e
+  105   2s2_2p3(4So)7p_3Pe                 3    P    e
+  106   2s2_2p3(4So)8s_5So[2]              5    S    o
+  107   2s2_2p3(4So)8s_3So[1]              3    S    o
+  108   2s2_2p3(4So)7d_5Do[4]              5    D    o
+  109   2s2_2p3(4So)7d_5Do[3]              5    D    o
+  110   2s2_2p3(4So)7d_5Do[2]              5    D    o
+  111   2s2_2p3(4So)7d_5Do[1]              5    D    o
+  112   2s2_2p3(4So)7d_5Do[0]              5    D    o
+  113   2s2_2p3(4So)7d_3Do[1]              3    D    o
+  114   2s2_2p3(4So)7d_3Do[2]              3    D    o
+  115   2s2_2p3(4So)7d_3Do[3]              3    D    o
+  116   2s2_2p3(4So)7f_5Fe[2]              5    F    e
+  117   2s2_2p3(4So)7f_5Fe[1]              5    F    e
+  118   2s2_2p3(4So)7f_5Fe[5]              5    F    e
+  119   2s2_2p3(4So)7f_5Fe[4]              5    F    e
+  120   2s2_2p3(4So)7f_5Fe[3]              5    F    e
+  121   2s2_2p3(4So)7f_3Fe[2]              3    F    e
+  122   2s2_2p3(4So)7f_3Fe[3]              3    F    e
+  123   2s2_2p3(4So)7f_3Fe[4]              3    F    e
+  124   2s2_2p3(4So)7z_3Z                  3    Z     
+  125   2s2_2p3(4So)7z_5Z                  5    Z     
+  126   2s2_2p3(4So)8p_5Pe                 5    P    e
+  127   2s2_2p3(4So)8p_3Pe                 3    P    e
+  128   2s2_2p3(4So)9s_5So[2]              5    S    o
+  129   2s2_2p3(4So)9s_3So[1]              3    S    o
+  130   2s2_2p3(4So)8d_5Do[4]              5    D    o
+  131   2s2_2p3(4So)8d_5Do[3]              5    D    o
+  132   2s2_2p3(4So)8d_5Do[2]              5    D    o
+  133   2s2_2p3(4So)8d_5Do[1]              5    D    o
+  134   2s2_2p3(4So)8d_5Do[0]              5    D    o
+  135   2s2_2p3(4So)8f_3Fe                 3    F    e
+  136   2s2_2p3(4So)8f_5Fe                 5    F    e
+  137   2s2_2p3(4So)8d_3Do[3]              3    D    o
+  138   2s2_2p3(4So)8d_3Do[2]              3    D    o
+  139   2s2_2p3(4So)8d_3Do[1]              3    D    o
+  140   2s2_2p3(4So)8z_5Z                  5    Z     
+  141   2s2_2p3(4So)8z_3Z                  3    Z     
+  142   2s2_2p3(4So)9p_5Pe                 5    P    e
+  143   2s2_2p3(4So)9p_3Pe                 3    P    e
+  144   2s2_2p3(4So)10s_5So[2]             5    S    o
+  145   2s2_2p3(4So)10s_3So[1]             3    S    o
+  146   2s2_2p3(4So)9d_5Do[4]              5    D    o
+  147   2s2_2p3(4So)9d_5Do[3]              5    D    o
+  148   2s2_2p3(4So)9d_5Do[2]              5    D    o
+  149   2s2_2p3(4So)9d_5Do[1]              5    D    o
+  150   2s2_2p3(4So)9d_5Do[0]              5    D    o
+  151   2s2_2p3(4So)9f_3Fe                 3    F    e
+  152   2s2_2p3(4So)9f_5Fe                 5    F    e
+  153   2s2_2p3(4So)9d_3Do[1]              3    D    o
+  154   2s2_2p3(4So)9d_3Do[2]              3    D    o
+  155   2s2_2p3(4So)9d_3Do[3]              3    D    o
+  156   2s2_2p3(4So)9z_3Z                  3    Z     
+  157   2s2_2p3(4So)9z_5Z                  5    Z     
+  158   2s2_2p3(4So)10p_5Pe                5    P    e
+  159   2s2_2p3(4So)10p_3Pe                3    P    e
+  160   2s2_2p3(4So)11s_5So                5    S    o
+  161   2s2_2p3(4So)11s_3So[1]             3    S    o
+  162   2s2_2p3(4So)10d_5Do[1]             5    D    o
+  163   2s2_2p3(4So)10d_5Do[0]             5    D    o
+  164   2s2_2p3(4So)10d_5Do[2]             5    D    o
+  165   2s2_2p3(4So)10d_5Do[4]             5    D    o
+  166   2s2_2p3(4So)10d_5Do[3]             5    D    o
+  167   2s2_2p3(4So)10f_5Fe                5    F    e
+  168   2s2_2p3(4So)10f_3Fe                3    F    e
+  169   2s2_2p3(4So)10d_3Do[1]             3    D    o
+  170   2s2_2p3(4So)10d_3Do[2]             3    D    o
+  171   2s2_2p3(4So)10d_3Do[3]             3    D    o
+  172   2s2_2p3(4So)10z_3Z                 3    Z     
+  173   2s2_2p3(4So)10z_5Z                 5    Z     
+  174   2s2_2p3(4So)11p_5Pe                5    P    e
+  175   2s2_2p3(4So)11p_3Pe                3    P    e
+  176   2s2_2p3(4So)11d_5Do                5    D    o
+  177   2s2_2p3(4So)11f_3Fe                3    F    e
+  178   2s2_2p3(4So)11f_5Fe                5    F    e
+  179   2s2_2p3(4So)11d_3Do                3    D    o
+  180   2s2_2p3(4So)11z_3Z                 3    Z     
+  181   2s2_2p3(4So)11z_5Z                 5    Z     
+  182   2s2_2p3(4So)12w_3W                 3    W     
+  183   2s2_2p3(4So)12w_5W                 5    W     
+  184   2s2_2p3(4So)13w_3W                 3    W     
+  185   2s2_2p3(4So)13w_5W                 5    W     
+  186   2s2_2p3(4So)14w_3W                 3    W     
+  187   2s2_2p3(4So)14w_5W                 5    W     
+  188   2s2_2p3(4So)15w_3W                 3    W     
+  189   2s2_2p3(4So)15w_5W                 5    W     
+  190   2s2_2p3(4So)16w_3W                 3    W     
+  191   2s2_2p3(4So)16w_5W                 5    W     
+  192   2s2_2p3(4So)17w_3W                 3    W     
+  193   2s2_2p3(4So)17w_5W                 5    W     
+  194   2s2_2p3(4So)18w_3W                 3    W     
+  195   2s2_2p3(4So)18w_5W                 5    W     
+  196   2s2_2p3(4So)19w_3W                 3    W     
+  197   2s2_2p3(4So)19w_5W                 5    W     
+  198   2s2_2p3(4So)20w_3W                 3    W     
+  199   2s2_2p3(4So)20w_5W                 5    W     
+    1   2s2_2p4_3Pe[2]                     3    P    e
+    2   2s2_2p4_3Pe[1]                     3    P    e
+    3   2s2_2p4_3Pe[0]                     3    P    e
+    4   2s2_2p4_1De[2]                     1    D    e
+    5   2s2_2p4_1Se[0]                     1    S    e
+    6   2s2_2p3(4So)3s_5So[2]              5    S    o
+    7   2s2_2p3(4So)3s_3So[1]              3    S    o
+    8   2s2_2p3(4So)3p_5Pe[1]              5    P    e
+    9   2s2_2p3(4So)3p_5Pe[2]              5    P    e
+   10   2s2_2p3(4So)3p_5Pe[3]              5    P    e
+   11   2s2_2p3(4So)3p_3Pe[1]              3    P    e
+   12   2s2_2p3(4So)3p_3Pe[2]              3    P    e
+   13   2s2_2p3(4So)3p_3Pe[0]              3    P    e
+   14   2s2_2p3(4So)4s_5So[2]              5    S    o
+   15   2s2_2p3(4So)4s_3So[1]              3    S    o
+   16   2s2_2p3(4So)3d_5Do[4]              5    D    o
+   17   2s2_2p3(4So)3d_5Do[3]              5    D    o
+   18   2s2_2p3(4So)3d_5Do[2]              5    D    o
+   19   2s2_2p3(4So)3d_5Do[1]              5    D    o
+   20   2s2_2p3(4So)3d_5Do[0]              5    D    o
+   21   2s2_2p3(4So)3d_3Do[1]              3    D    o
+   22   2s2_2p3(4So)3d_3Do[2]              3    D    o
+   23   2s2_2p3(4So)3d_3Do[3]              3    D    o
+   24   2s2_2p3(4So)4p_5Pe[1]              5    P    e
+   25   2s2_2p3(4So)4p_5Pe[2]              5    P    e
+   26   2s2_2p3(4So)4p_5Pe[3]              5    P    e
+   27   2s2_2p3(4So)4p_3Pe[1]              3    P    e
+   28   2s2_2p3(4So)4p_3Pe[2]              3    P    e
+   29   2s2_2p3(4So)4p_3Pe[0]              3    P    e
+   30   2s2_2p3(2Do)3s_3Do[3]              3    D    o
+   31   2s2_2p3(2Do)3s_3Do[2]              3    D    o
+   32   2s2_2p3(2Do)3s_3Do[1]              3    D    o
+   33   2s2_2p3(4So)5s_5So[2]              5    S    o
+   34   2s2_2p3(4So)5s_3So[1]              3    S    o
+   35   2s2_2p3(2Do)3s_1Do[2]              1    D    o
+   36   2s2_2p3(4So)4d_5Do[4]              5    D    o
+   37   2s2_2p3(4So)4d_5Do[3]              5    D    o
+   38   2s2_2p3(4So)4d_5Do[2]              5    D    o
+   39   2s2_2p3(4So)4d_5Do[1]              5    D    o
+   40   2s2_2p3(4So)4d_5Do[0]              5    D    o
+   41   2s2_2p3(4So)4d_3Do[3]              3    D    o
+   42   2s2_2p3(4So)4d_3Do[2]              3    D    o
+   43   2s2_2p3(4So)4d_3Do[1]              3    D    o
+   44   2s2_2p3(4So)4f_5Fe[4]              5    F    e
+   45   2s2_2p3(4So)4f_5Fe[3]              5    F    e
+   46   2s2_2p3(4So)4f_5Fe[2]              5    F    e
+   47   2s2_2p3(4So)4f_5Fe[1]              5    F    e
+   48   2s2_2p3(4So)4f_5Fe[5]              5    F    e
+   49   2s2_2p3(4So)4f_3Fe[2]              3    F    e
+   50   2s2_2p3(4So)4f_3Fe[4]              3    F    e
+   51   2s2_2p3(4So)4f_3Fe[3]              3    F    e
+   52   2s2_2p3(4So)5p_5Pe[1]              5    P    e
+   53   2s2_2p3(4So)5p_5Pe[2]              5    P    e
+   54   2s2_2p3(4So)5p_5Pe[3]              5    P    e
+   55   2s2_2p3(4So)5p_3Pe[2]              3    P    e
+   56   2s2_2p3(4So)5p_3Pe[1]              3    P    e
+   57   2s2_2p3(4So)5p_3Pe[0]              3    P    e
+   58   2s2_2p3(4So)6s_5So[2]              5    S    o
+   59   2s2_2p3(4So)6s_3So[1]              3    S    o
+   60   2s2_2p3(4So)5d_5Do[4]              5    D    o
+   61   2s2_2p3(4So)5d_5Do[3]              5    D    o
+   62   2s2_2p3(4So)5d_5Do[2]              5    D    o
+   63   2s2_2p3(4So)5d_5Do[1]              5    D    o
+   64   2s2_2p3(4So)5d_5Do[0]              5    D    o
+   65   2s2_2p3(4So)5d_3Do[3]              3    D    o
+   66   2s2_2p3(4So)5d_3Do[2]              3    D    o
+   67   2s2_2p3(4So)5d_3Do[1]              3    D    o
+   68   2s2_2p3(4So)5f_5Fe[1]              5    F    e
+   69   2s2_2p3(4So)5f_5Fe[2]              5    F    e
+   70   2s2_2p3(4So)5f_5Fe[3]              5    F    e
+   71   2s2_2p3(4So)5f_5Fe[5]              5    F    e
+   72   2s2_2p3(4So)5f_5Fe[4]              5    F    e
+   73   2s2_2p3(4So)5f_3Fe[4]              3    F    e
+   74   2s2_2p3(4So)5f_3Fe[3]              3    F    e
+   75   2s2_2p3(4So)5f_3Fe[2]              3    F    e
+   76   2s2_2p3(4So)5z_3Z                  3    Z     
+   77   2s2_2p3(4So)5z_5Z                  5    Z     
+   78   2s2_2p3(4So)6p_5Pe[1]              5    P    e
+   79   2s2_2p3(4So)6p_5Pe[2]              5    P    e
+   80   2s2_2p3(4So)6p_5Pe[3]              5    P    e
+   81   2s2_2p3(4So)6p_3Pe[2]              3    P    e
+   82   2s2_2p3(4So)6p_3Pe[1]              3    P    e
+   83   2s2_2p3(4So)6p_3Pe[0]              3    P    e
+   84   2s2_2p3(4So)7s_5So[2]              5    S    o
+   85   2s2_2p3(4So)7s_3So[1]              3    S    o
+   86   2s2_2p3(4So)6d_5Do[4]              5    D    o
+   87   2s2_2p3(4So)6d_5Do[3]              5    D    o
+   88   2s2_2p3(4So)6d_5Do[2]              5    D    o
+   89   2s2_2p3(4So)6d_5Do[1]              5    D    o
+   90   2s2_2p3(4So)6d_5Do[0]              5    D    o
+   91   2s2_2p3(4So)6d_3Do[3]              3    D    o
+   92   2s2_2p3(4So)6d_3Do[2]              3    D    o
+   93   2s2_2p3(4So)6d_3Do[1]              3    D    o
+   94   2s2_2p3(4So)6f_5Fe[1]              5    F    e
+   95   2s2_2p3(4So)6f_5Fe[2]              5    F    e
+   96   2s2_2p3(4So)6f_5Fe[4]              5    F    e
+   97   2s2_2p3(4So)6f_5Fe[3]              5    F    e
+   98   2s2_2p3(4So)6f_5Fe[5]              5    F    e
+   99   2s2_2p3(4So)6f_3Fe[4]              3    F    e
+  100   2s2_2p3(4So)6f_3Fe[3]              3    F    e
+  101   2s2_2p3(4So)6f_3Fe[2]              3    F    e
+  102   2s2_2p3(4So)6z_3Z                  3    Z     
+  103   2s2_2p3(4So)6z_5Z                  5    Z     
+  104   2s2_2p3(4So)7p_5Pe                 5    P    e
+  105   2s2_2p3(4So)7p_3Pe                 3    P    e
+  106   2s2_2p3(4So)8s_5So[2]              5    S    o
+  107   2s2_2p3(4So)8s_3So[1]              3    S    o
+  108   2s2_2p3(4So)7d_5Do[4]              5    D    o
+  109   2s2_2p3(4So)7d_5Do[3]              5    D    o
+  110   2s2_2p3(4So)7d_5Do[2]              5    D    o
+  111   2s2_2p3(4So)7d_5Do[1]              5    D    o
+  112   2s2_2p3(4So)7d_5Do[0]              5    D    o
+  113   2s2_2p3(4So)7d_3Do[1]              3    D    o
+  114   2s2_2p3(4So)7d_3Do[2]              3    D    o
+  115   2s2_2p3(4So)7d_3Do[3]              3    D    o
+  116   2s2_2p3(4So)7f_5Fe[2]              5    F    e
+  117   2s2_2p3(4So)7f_5Fe[1]              5    F    e
+  118   2s2_2p3(4So)7f_5Fe[5]              5    F    e
+  119   2s2_2p3(4So)7f_5Fe[4]              5    F    e
+  120   2s2_2p3(4So)7f_5Fe[3]              5    F    e
+  121   2s2_2p3(4So)7f_3Fe[2]              3    F    e
+  122   2s2_2p3(4So)7f_3Fe[3]              3    F    e
+  123   2s2_2p3(4So)7f_3Fe[4]              3    F    e
+  124   2s2_2p3(4So)7z_3Z                  3    Z     
+  125   2s2_2p3(4So)7z_5Z                  5    Z     
+  126   2s2_2p3(4So)8p_5Pe                 5    P    e
+  127   2s2_2p3(4So)8p_3Pe                 3    P    e
+  128   2s2_2p3(4So)9s_5So[2]              5    S    o
+  129   2s2_2p3(4So)9s_3So[1]              3    S    o
+  130   2s2_2p3(4So)8d_5Do[4]              5    D    o
+  131   2s2_2p3(4So)8d_5Do[3]              5    D    o
+  132   2s2_2p3(4So)8d_5Do[2]              5    D    o
+  133   2s2_2p3(4So)8d_5Do[1]              5    D    o
+  134   2s2_2p3(4So)8d_5Do[0]              5    D    o
+  135   2s2_2p3(4So)8f_3Fe                 3    F    e
+  136   2s2_2p3(4So)8f_5Fe                 5    F    e
+  137   2s2_2p3(4So)8d_3Do[3]              3    D    o
+  138   2s2_2p3(4So)8d_3Do[2]              3    D    o
+  139   2s2_2p3(4So)8d_3Do[1]              3    D    o
+  140   2s2_2p3(4So)8z_5Z                  5    Z     
+  141   2s2_2p3(4So)8z_3Z                  3    Z     
+  142   2s2_2p3(4So)9p_5Pe                 5    P    e
+  143   2s2_2p3(4So)9p_3Pe                 3    P    e
+  144   2s2_2p3(4So)10s_5So[2]             5    S    o
+  145   2s2_2p3(4So)10s_3So[1]             3    S    o
+  146   2s2_2p3(4So)9d_5Do[4]              5    D    o
+  147   2s2_2p3(4So)9d_5Do[3]              5    D    o
+  148   2s2_2p3(4So)9d_5Do[2]              5    D    o
+  149   2s2_2p3(4So)9d_5Do[1]              5    D    o
+  150   2s2_2p3(4So)9d_5Do[0]              5    D    o
+  151   2s2_2p3(4So)9f_3Fe                 3    F    e
+  152   2s2_2p3(4So)9f_5Fe                 5    F    e
+  153   2s2_2p3(4So)9d_3Do[1]              3    D    o
+  154   2s2_2p3(4So)9d_3Do[2]              3    D    o
+  155   2s2_2p3(4So)9d_3Do[3]              3    D    o
+  156   2s2_2p3(4So)9z_3Z                  3    Z     
+  157   2s2_2p3(4So)9z_5Z                  5    Z     
+  158   2s2_2p3(4So)10p_5Pe                5    P    e
+  159   2s2_2p3(4So)10p_3Pe                3    P    e
+  160   2s2_2p3(4So)11s_5So                5    S    o
+  161   2s2_2p3(4So)11s_3So[1]             3    S    o
+  162   2s2_2p3(4So)10d_5Do[1]             5    D    o
+  163   2s2_2p3(4So)10d_5Do[0]             5    D    o
+  164   2s2_2p3(4So)10d_5Do[2]             5    D    o
+  165   2s2_2p3(4So)10d_5Do[4]             5    D    o
+  166   2s2_2p3(4So)10d_5Do[3]             5    D    o
+  167   2s2_2p3(4So)10f_5Fe                5    F    e
+  168   2s2_2p3(4So)10f_3Fe                3    F    e
+  169   2s2_2p3(4So)10d_3Do[1]             3    D    o
+  170   2s2_2p3(4So)10d_3Do[2]             3    D    o
+  171   2s2_2p3(4So)10d_3Do[3]             3    D    o
+  172   2s2_2p3(4So)10z_3Z                 3    Z     
+  173   2s2_2p3(4So)10z_5Z                 5    Z     
+  174   2s2_2p3(4So)11p_5Pe                5    P    e
+  175   2s2_2p3(4So)11p_3Pe                3    P    e
+  176   2s2_2p3(4So)11d_5Do                5    D    o
+  177   2s2_2p3(4So)11f_3Fe                3    F    e
+  178   2s2_2p3(4So)11f_5Fe                5    F    e
+  179   2s2_2p3(4So)11d_3Do                3    D    o
+  180   2s2_2p3(4So)11z_3Z                 3    Z     
+  181   2s2_2p3(4So)11z_5Z                 5    Z     
+  182   2s2_2p3(4So)12w_3W                 3    W     
+  183   2s2_2p3(4So)12w_5W                 5    W     
+  184   2s2_2p3(4So)13w_3W                 3    W     
+  185   2s2_2p3(4So)13w_5W                 5    W     
+  186   2s2_2p3(4So)14w_3W                 3    W     
+  187   2s2_2p3(4So)14w_5W                 5    W     
+  188   2s2_2p3(4So)15w_3W                 3    W     
+  189   2s2_2p3(4So)15w_5W                 5    W     
+  190   2s2_2p3(4So)16w_3W                 3    W     
+  191   2s2_2p3(4So)16w_5W                 5    W     
+  192   2s2_2p3(4So)17w_3W                 3    W     
+  193   2s2_2p3(4So)17w_5W                 5    W     
+  194   2s2_2p3(4So)18w_3W                 3    W     
+  195   2s2_2p3(4So)18w_5W                 5    W     
+  196   2s2_2p3(4So)19w_3W                 3    W     
+  197   2s2_2p3(4So)19w_5W                 5    W     
+  198   2s2_2p3(4So)20w_3W                 3    W     
+  199   2s2_2p3(4So)20w_5W                 5    W     

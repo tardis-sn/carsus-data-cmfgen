@@ -1,9 +1,13 @@
 
 ********************************************************************************
 
-                 Energy Levels and statistical weights for CaVII
-                 Revised 12-Jun-2001 (3s2_ removed from 
-                   3p2_3d2, 3p3_3d, and 3p4).
+         Energy Levels and statistical weights for CaVII
+         Revised 12-Jun-2001 (3s2_ removed from 3p2_3d2, 3p3_3d, and 3p4).
+
+ [Reference] Ca\,{\sc vii} oscillator strengths are from the opacity project
+ [Reference] \citep{Sea87_op}, and were retrieved from Topbase \citep{Topbase93}.
+ [Reference] C Mendoza, W Eissner, M Le Dourneuf, CJ Zeippen (unpublished)
+ [Reference] Supplemented by hydrogenic values for high (l,n) states.
 
 ********************************************************************************
 

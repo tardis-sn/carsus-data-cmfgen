@@ -1,6 +1,10 @@
 ************************************************************************************************************************
  
                  Energy Levels and statistical weights for SkSIX
+
+ [Reference] Si\,{\sc vi} oscillator strengths are from the opacity project
+ [Reference] \citep{Sea87_op}, and were retrieved from Topbase \citep{Topbase93}.
+ [Reference] K Butler & CJ Zeippen (unpublished).
  
                                g        E(cm^-1)    10^15 Hz     eV       Lam(A)       ID      ARAD       GAM2        GAM4
 ************************************************************************************************************************

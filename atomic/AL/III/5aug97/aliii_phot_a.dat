@@ -14,7 +14,7 @@
            2 - Hydrogenic: Split l (z states, n > 11)
            3 - Hydrogenic: Pure n level (all l, n >= 13)
 
- [Reference] Mg\,{\sc iv} photoioinization cross-sections are from the opacity project
+ [Reference] Al\,{\sc iii} photoioinization cross-sections are from the opacity project
  [Reference] \citep{Sea87_op}, and were retrieved from Topbase \citep{Topbase93}.
 
 ******************************************************************************

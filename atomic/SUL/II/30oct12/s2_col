@@ -2,13 +2,14 @@
  
        Colisional data for S2
        Level names updated 29-Aug-2012
+       Altered: 19-Apr-2022 -  Fixed number of T vales and number of transitions. 
  
  [Reference] Collisional data for 70 levels of S\,{\sc ii} is from \citep{Tay08_SiII_col}.
 
 ********************************************************************************************
  
-8                                       !Number of transitions
-4                                       !Number of T values OMEGA tabulated at
+2415                                    !Number of transitions
+8                                       !Number of T values OMEGA tabulated at
 1.0                                     !Scaling factor for OMEGA (non-FILE values).
 0.1                                     !Value for OMEGA if f=0
  

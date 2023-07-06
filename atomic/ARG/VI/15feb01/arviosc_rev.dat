@@ -1,6 +1,10 @@
 ************************************************************************************************************************
  
                  Energy Levels and statistical weights for ArVI
+
+ [Reference] Ar\,{\sc vi} oscillator strengths were computed as part of the opacity project
+ [Reference] \citep{Sea87_OP} and were obtained from \citep{Topbase93}.
+ [Reference]  C Mendoza, W Eissner, M Le Dourneuf, CJ Zeippen (unpublished).
  
                              g        E(cm^-1)    10^15 Hz     eV       Lam(A)       ID      ARAD       GAM2        GAM4
 ************************************************************************************************************************

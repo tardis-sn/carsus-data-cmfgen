@@ -1,0 +1,18 @@
+
+******************************************************************************
+
+       Colisional data for KIV
+       From Mendoza, IAU Symposium  103
+
+******************************************************************************
+
+3                                       !Number of transitions
+1                                       !Number of T values OMEGA tabulated at
+1.0                                     !Scaling factor for OMEGA (non-FILE values).
+0.1                                     !Value for OMEGA if f=0
+
+    Transition\T                        1.0
+
+3p4_3Pe-3p4_1De                    1.90
+3p4_3Pe-3p4_1Se                    0.292
+3p4_1De-3p4_1Se                    0.798

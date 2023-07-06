@@ -7,9 +7,9 @@
          Reference: Tayal, S. S., 1997, ADNDT, 67, 331 (5Se transition)
 
         
- [Reference] S\,{\sc iii} oscilator strengths are from were computed by \cite{NP93_SiI} as part of the opacity
+ [Reference] S\,{\sc iii} oscilator strengths are from were computed by \cite{NP93_Sil} as part of the opacity
  [Reference] project \citep{Sea87_OP} and were obtained from \citep{Topbase93}. Date for forbidden and intercombination
- [Reference] transitions is from \cite{Tay97_SIII_forb,Men83_col,Hua85_Si}.
+ [Reference] transitions is from \cite{Tay97_SIII_forb,Men83_col,Hua85_Si_seq}.
    
                           g        E(cm^-1)    10^15 Hz     eV       Lam(A)       ID      ARAD       GAM2        GAM4
 ************************************************************************************************************************

@@ -1,0 +1,69 @@
+****************************************************************************
+****************************************************************************
+
+List of charge exchange reactions: The data must have the following format.
+The first data line in the file should contain the number of charge exchange 
+followed by ! and then immediately the string,
+
+   Number of charge exchange reactions.
+
+For a reaction of the form
+
+        X++ + Y+  -->  X+ + Y++
+
+the SPECIES and LEVEL of reactant should be specified IN ORDER on the
+same line (with at least 2 spaces between values):
+           X++ must be specfied before Y+
+           X+  must be specfied before Y++
+
+Since we makeing level naming more systematic, an alternative level name
+can be specifed /ALT_NAME IMMEADIATELY after the usual level name. All species
+and level names must not contain spaces.
+
+One the next line:
+                Fitting formula
+                Number of ocefficients:
+                The coefficients, and TLOW and THI (same or separate lines)
+
+TLOW and THI specify the temperature range of the fitting formula, in
+units of 10^4K. Outside this range, the value at THI is used.
+
+****************************************************************************
+****************************************************************************
+
+19        	!Number of charge exchange reactions
+27-Nov-2000     !Format date
+27-Nov-2000     !Modification date
+
+CIII  2s21Se/2s2_1Se  SkI  3s2_3p2_3Pe   C2  2s2_2p_2Po/2s2s2p2Po     SkI 3s2_3p_2Po
+1
+2
+2.2D-10
+0.0
+0.0D0
+10.0D0
+
+CIII  2s21Se/2s2_1Se  NeI  2s2_2p6_1Se   C2  2s2_2p_2Po/2s2s2p2Po     Ne2  2s2_2p5_2Po
+1
+2
+7.7D-09
+0.0
+0.0D0
+10.0D0
+
+SkIII  3s21se/3s2_1Se  NI  2s2_2p3_4So   C2  3s2_3p_2Po        N2 2s2_2p2_3Pe
+1
+2
+1.2D-10
+0.0
+0.0D0
+10.0D0
+
+CIII  2s21Se/2s2_1Se  NI  2s2_2p3_4So   C2  2s2_2p_2Po/2s2s2p2Po     N2  2s2_2p2_3Pe
+1
+2
+1.4D-08
+0.0
+0.0D0
+10.0D0
+

@@ -7,6 +7,9 @@ is defined by
 
 We also use the same definition for the ionization collision strength.
 For ionization of low lying levels we expect OMEGA(i,i) to be propotional to T.
+
+ [Reference] Collisonal data for Fe XIV is from \cite{SMS96_fexiv}.
+ 
 **************************************************************************************************************************
 **************************************************************************************************************************
 

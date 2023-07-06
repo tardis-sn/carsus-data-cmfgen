@@ -1,0 +1,50 @@
+@ARTICLE{1997PhyS...55...41Q,
+   author = {{Quinet}, P.},
+    title = "{Transition probabilities for forbidden lines in Cr II}",
+  journal = {\physscr},
+     year = 1997,
+    month = jan,
+   volume = 55,
+    pages = {41-48},
+      doi = {10.1088/0031-8949/55/1/007},
+   adsurl = {http://adsabs.harvard.edu/abs/1997PhyS...55...41Q},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+
+@INPROCEEDINGS{2009AIPC.1171...43K,
+   author = {{Kurucz}, R.~L.},
+    title = "{Including All the Lines}",
+ keywords = {stellar atmospheres, white dwarfs, supernovae, Stellar atmospheres ; radiative transfer; opacity and line formation, Faint blue stars , white dwarfs, degenerate stars, nuclei of planetary nebulae, Supernovae},
+booktitle = {American Institute of Physics Conference Series},
+     year = 2009,
+   series = {American Institute of Physics Conference Series},
+   volume = 1171,
+archivePrefix = "arXiv",
+   eprint = {0912.5371},
+ primaryClass = "astro-ph.SR",
+   editor = {{Hubeny}, I. and {Stone}, J.~M. and {MacGregor}, K. and {Werner}, K.
+	},
+    month = sep,
+    pages = {43-51},
+      doi = {10.1063/1.3250087},
+   adsurl = {http://adsabs.harvard.edu/abs/2009AIPC.1171...43K},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2010A&A...524A..35W,
+   author = {{Wasson}, I.~R. and {Ramsbottom}, C.~A. and {Norrington}, P.~H.
+	},
+    title = "{Electron-impact excitation of Cr ii. A theoretical calculation of collision and effective collision strengths for forbidden transitions}",
+  journal = {\aap},
+ keywords = {atomic data, atomic processes, methods: numerical, scattering, plasmas},
+     year = 2010,
+    month = dec,
+   volume = 524,
+      eid = {A35},
+    pages = {A35},
+      doi = {10.1051/0004-6361/201015200},
+   adsurl = {http://adsabs.harvard.edu/abs/2010A%26A...524A..35W},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+

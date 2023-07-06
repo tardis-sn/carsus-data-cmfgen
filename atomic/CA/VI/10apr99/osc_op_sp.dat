@@ -3,6 +3,10 @@
 
                  Energy Levels and statistical weights for CaVI      
 
+ [Reference] Ca\,{\sc vi} oscillator strengths are from the opacity project.
+ [Reference] \citep{Sea87_op}, and were retrieved from Topbase \citep{Topbase93}.
+ [Reference] Computed by S. N. Nahar & A. K. Pradhan, 1993, J. Phys. B, 26, 1109 (ADOC-18) \cite{NP93_Sil} 
+
 ********************************************************************************
 
 14-Apr-1999                                      !Date

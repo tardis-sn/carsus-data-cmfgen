@@ -12,7 +12,7 @@
           Energy levels are from NIST when available, or based on a estimate
             of the quantum defect.
 
- [Reference] Mg\,{\sc ii} oscillator strengths are from the opacity project
+ [Reference] Al\,{\sc ii} oscillator strengths are from the opacity project
  [Reference] \citep{Sea87_op}, and were retrieved from Topbase \citep{Topbase93}.
  [Reference] Augumented by hydrogenic values, and algebracic splitting performed.
 

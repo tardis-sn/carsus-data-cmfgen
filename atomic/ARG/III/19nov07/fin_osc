@@ -17,8 +17,15 @@
          Kurucz gf values inserted where possible
     Data from Mendoza.
          Intercombination transition inserted
- 
-                             g        E(cm^-1)      10^15 Hz     eV       Lam(A)       ID      ARAD       GAM2        GAM4
+
+ [Reference] Oscillator strengths are from the Opacity Project
+ [Reference] Downloaded from Topbase 
+ [Reference] K Butler, C Mendoza & CJ Zeippen (unpublished)
+ [Reference] Kurucz data used where possible \citep{Kur_web}
+ [Reference] Intercombination transition \cite{1983MNRAS.202..981M}
+ [Reference] Mendoza, C., Zeippen, C. J., 1983, MNRAS, 202, 981
+
+g        E(cm^-1)      10^15 Hz     eV       Lam(A)       ID      ARAD       GAM2        GAM4
 ************************************************************************************************************************
  
 17-Oct-2000                                      !Format date

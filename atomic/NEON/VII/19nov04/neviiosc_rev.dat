@@ -3,6 +3,10 @@
 
                  Energy Levels and statistical weights for NeVII     
 
+ [Reference]  Ne VII oscillator data are from \cite{TSB90_Be_se} and were retrieved
+ [Reference]            from Topbase \citep{Topbase9}. Complemented by hydrogenic cross-sections
+ [Reference]            for high $l$ and $n$ states.
+
 ********************************************************************************
 
 20-Nov-2004                                      !Date

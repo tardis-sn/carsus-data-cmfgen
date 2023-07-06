@@ -11,8 +11,10 @@
          -----------------------------------
 
            1 - Seaton formula fit [sigma_o,alpha,beta]                  
-
           20 - Opacity Project: smoothed [number of data pairs]         
+
+ [Reference] Ar\,{\sc vii} : Photoionization cross-sections for \ion{A}{7} \cite{BKM93_Mg_seq}
+ [Reference] Ar\,{\sc vii} : Computed as part of the Opacity project
 
 ******************************************************************************
 

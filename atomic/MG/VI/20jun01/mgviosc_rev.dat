@@ -1,6 +1,11 @@
 ************************************************************************************************************************
  
-                 Energy Levels and statistical weights for MgVI
+                 Energy Levels and statistical weights for Mg VI
+
+ [Reference] [Reference] Mg\,{\sc vi} oscillator strengths are from the opacity project
+ [Reference] \citep{Sea87_op}, and were retrieved from Topbase \citep{Topbase93}.
+ [Reference] VM Burke & DJ Lennon (unpublished). Supplemented by hydrogenic values for high (l,n) states.
+ [Reference] Intercombinaton transitions were taken from NIST.
  
                                g        E(cm^-1)    10^15 Hz     eV       Lam(A)       ID      ARAD       GAM2        GAM4
 ************************************************************************************************************************

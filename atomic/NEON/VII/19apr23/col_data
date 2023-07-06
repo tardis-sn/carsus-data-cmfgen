@@ -1,0 +1,15 @@
+
+******************************************************************************
+
+       Colisional data for Ne VII
+
+******************************************************************************
+
+1                                       !Number of transitions
+4                                       !Number of T values OMEGA tabulated at
+1.0                                     !Scaling factor for OMEGA (non-FILE values).
+0.1                                     !Value for OMEGA if f=0
+
+  Transition\T           0.5       1.0      1.5     2.0 
+2s2_1Se-2s_2p_3Po       0.129     0.172    0.205   0.228
+

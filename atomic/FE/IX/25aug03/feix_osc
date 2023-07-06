@@ -4,6 +4,8 @@
                  Data is from Kurucz.
                  Level naming is taken primarily from Kurucz. 
 
+ [Reference] Oscillator strengths for Fe IX are from Kurucz (\citep{Kur09_ATD}; \citep{Kur_web}
+
                                 g        E(cm^-1)    10^15 Hz     eV       Lam(A)       ID      ARAD       GAM2        GAM4
 ************************************************************************************************************************
  

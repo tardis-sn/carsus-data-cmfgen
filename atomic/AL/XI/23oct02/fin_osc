@@ -1,6 +1,11 @@
 ************************************************************************************************************************
  
                  Energy Levels and statistical weights for AlXI
+
+ [Reference] Al\,{\sc xi} oscillator strengths are from \cite{PSS88_LI_seq}
+ [Reference] ( G Peach, HE Saraph & MJ Seaton, 1988, J. Phys. B, 21, 3669 (ADOC-9))
+ [Reference] \citep{Sea87_op}, and were retrieved from Topbase \citep{Topbase93}.
+ [Reference] Supplemented by hydrogenic values for high (l,n) states.
  
                    g        E(cm^-1)    10^15 Hz     eV       Lam(A)       ID      ARAD       GAM2        GAM4
 ************************************************************************************************************************

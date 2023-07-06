@@ -1,0 +1,46 @@
+
+********************************************************************************
+
+                 Dielectronic Transitions for C2DOUB    
+                 LTDR transitions with ALPHA(DIE) < 1.00E-02 (*10^-12) ignored
+                 This is at test file ONLY.
+
+********************************************************************************
+
+27-Jul-2001                             !Format date
+01-Sep-1989                             !Date
+196664.7000                             !Ionization energy
+2.0                                     !Screened nuclear charge
+T                                       !Split J levels
+8                                       !Number of energy levels
+7                                       !Number of dielectronic transitions
+6                                       !Number of free-free transitions
+
+2s_2p(3Po)3d_2Fo[5/2]     6.0     199941.41    1.442D+12
+2s_2p(3Po)3d_2Fo[7/2]     8.0     199983.24    1.442D+12
+2s_2p(3Po)3d_2Po[3/2]     4.0     202179.85    1.490E+11
+2s_2p(3Po)3d_2Po[1/2]     2.0     202204.52    1.490E+11
+2s_2p(3Po)4f_2De[5/2]     6.0     221729.92    1.809E+11
+2s_2p(3Po)4f_2De[3/2]     4.0     221752.26    1.809E+11
+2s_2p(3Po)4f_2Ge[7/2]     8.0     221587.12    1.674E+09
+2s_2p(3Po)4f_2Ge[9/2]    10.0     221625.72    1.674E+09
+
+  Transition                                      f           A          Lam(A)
+
+2s_2p(3Po)3p_2Pe[1/2]-2s_2p(3Po)3d_2Po[3/2]     2.68E-02   2.202E+07     4961.30
+2s_2p(3Po)3p_2Pe[1/2]-2s_2p(3Po)3d_2Po[1/2]     5.37E-02   2.202E+07     4955.24
+2s_2p(3Po)3p_2Pe[3/2]-2s_2p(3Po)3d_2Po[3/2]     6.83E-02   2.202E+07     4966.12
+2s_2p(3Po)3p_2Pe[3/2]-2s_2p(3Po)3d_2Po[1/2]     1.34E-02   2.202E+07     4960.04
+2s_2p(3Po)3p_2De[3/2]-2s_2p(3Po)3d_2Fo[5/2]     4.83E-01   2.965E+07     8802.69
+2s_2p(3Po)3p_2De[5/2]-2s_2p(3Po)3d_2Fo[5/2]     2.29E-02   2.965E+07     8828.98
+2s_2p(3Po)3p_2De[5/2]-2s_2p(3Po)3d_2Fo[7/2]     4.58E-01   2.965E+07     8796.49
+!
+! Free free data
+!
+2s_2p(3Po)3d_2Po[3/2]-2s_2p(3Po)4f_2De[5/2]     3.35E-01   6.9D+07       5115.1 
+2s_2p(3Po)3d_2Po[3/2]-2s_2p(3Po)4f_2De[3/2]     5.86E-02   1.2D+07       5109.1
+2s_2p(3Po)3d_2Po[1/2]-2s_2p(3Po)4f_2De[3/2]     5.72D-02   5.8D+07       5115.5
+2s_2p(3Po)3d_2Fo[5/2]-2s_2p(3Po)4f_2Ge[7/2]     1.03D+00   2.41E+08      4619.85 
+2s_2p(3Po)3d_2Fo[7/2]-2s_2p(3Po)4f_2Ge[7/2]     2.31D-02   7.19E+06      4628.80
+2s_2p(3Po)3d_2Fo[7/2]-2s_2p(3Po)4f_2Ge[9/2]     5.45D-01   1.36E+08      4620.54
+

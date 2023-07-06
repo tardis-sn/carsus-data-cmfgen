@@ -1,6 +1,11 @@
 ************************************************************************************************************************
  
                  Energy Levels and statistical weights for AlVI
+
+ [Reference] [Reference] Al\,{\sc vi} oscillator strengths are from the opacity project
+ [Reference] \citep{Sea87_op}, and were retrieved from Topbase \citep{Topbase93}.
+ [Reference] K Butler & CJ Zeippen (unpublished). Supplemented by hydrogenic values for high (l,n) states.
+ [Reference] Intercombination rates are from Galavis, Mendoza, and Zeippen (A&AS, 123, 159) \cite{GMD97_CO_Seq}.
  
                              g        E(cm^-1)    10^15 Hz     eV       Lam(A)       ID      ARAD       GAM2        GAM4
 ************************************************************************************************************************

@@ -9,8 +9,9 @@ is defined by
 We also use the same definition for the ionization collision strength.
 For ionization of low lying levels we expect OMEGA(i,i) to be propotional to T.
 
-Reference: Collision rates iare from Menoza (IAU Symp. 103)
-
+[Reference]: Collision rates are from Menoza (IAU Symp. 103)
+[Reference]: Collision rate (Lowest LS state) are from \cite{1987JPhB...20.2553J} - Update 10-Jan-2022
+ 
 **************************************************************************************************************************
 **************************************************************************************************************************
 
@@ -19,10 +20,13 @@ Reference: Collision rates iare from Menoza (IAU Symp. 103)
 1.0				!Scaling factor for OMEGA (non-FILE values).
 0.1				!Value for OMEGA if f=0
                                                   
-Transition\T               0.05        0.1       0.5      1.0      1.5       2.0
+Transition\T                       0.05        0.1        0.5       1.0        1.5         2.0
  
-2s2_2p2_3Pe-2s2_2p2_1De     0.0625      0.125     0.603     1.14     1.60      1.96
-2s2_2p2_3Pe-2s2_2p2_1Se     0.0172      0.0339    0.149     0.252    0.320     0.365
-2s2_2p2_1De-2s2_2p2_1Se     0.0620      0.0877    0.196     0.277    0.340     0.392
-2s2_2p2_3Pe-2s_2p3_5So      0.150       0.212     0.475     0.671    0.822     0.950
+2s2_2p2_3Pe[0]-2s2_2p2_3Pe[1]    8.99E-03   2.17E-02   2.43E-01   3.71E-01    4.66E-01    6.13E-01
+2s2_2p2_3Pe[0]-2s2_2p2_3Pe[2]    6.21E-03   1.69E-02   1.82E-01   2.46E-01    3.00E-01    3.95E-01
+2s2_2p2_3Pe[1]-2s2_2p2_3Pe[2]    2.47E-02   6.47E-02   7.14E-01   1.02E+00    1.26E+00    1.67E+00
+2s2_2p2_3Pe-2s2_2p2_1De            0.0625      0.125      0.603      1.14       1.60      1.96
+2s2_2p2_3Pe-2s2_2p2_1Se            0.0172      0.0339     0.149      0.252      0.320     0.365
+2s2_2p2_1De-2s2_2p2_1Se            0.0620      0.0877     0.196      0.277      0.340     0.392
+2s2_2p2_3Pe-2s_2p3_5So             0.150       0.212      0.475      0.671      0.822     0.950
 
