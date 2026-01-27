@@ -6,7 +6,8 @@ on:
   workflow_dispatch:
   
 env:
-  SOURCE_URL: https://sites.pitt.edu/~hillier/cmfgen_files/atomic_data_21jun23.tar.gz
+  CMFGEN_BASE_URL: https://sites.pitt.edu/~hillier/cmfgen_files
+  DATASET_VERSION: atomic_data_21jun23
 
 jobs:
   build:
@@ -15,14 +16,14 @@ jobs:
       SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
 
     steps:
-      - uses: act10ns/slack@v2.0.0
+      - uses: act10ns/slack@v2.1.0
         with:
           status: starting
           message: Starting Check CMFGEN data update workflow
         if: always()
-        
+
       - name: Checkout github repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v6
         with:
           persist-credentials: false
 
@@ -34,8 +35,9 @@ jobs:
       - name: Download data
         id: download_data
         run: |
+          SOURCE_URL=${{ env.CMFGEN_BASE_URL }}/${{ env.DATASET_VERSION }}.tar.gz
           wget -q -U "Mozilla/4.0" $SOURCE_URL -O /tmp/atomic.tar.gz
-          tar -zxf /tmp/atomic.tar.gz 
+          tar -zxf /tmp/atomic.tar.gz
           
       - name: Compare changes
         id: compare
@@ -48,18 +50,18 @@ jobs:
         id: commit_changes
         if: ${{ steps.compare.outcome == 'failure' }}
         run: |
-          git commit -m "New dataset added"
+          git commit -m "Update CMFGEN dataset to ${{ env.DATASET_VERSION }}"
 
       - name: Push changes
         id: Push_changes
         if: ${{ steps.compare.outcome == 'failure' }}
-        uses: ad-m/github-push-action@master
+        uses: ad-m/github-push-action@v1.0.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
           
-      - name: Report status 
-        uses: act10ns/slack@v2.0.0
+      - name: Report status
+        uses: act10ns/slack@v2.1.0
         with:
           status: ${{ job.status }}
           steps: ${{ toJson(steps) }}
